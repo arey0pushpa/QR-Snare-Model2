@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 
-#define M 6       
+#define M 3
 #define N 2
-#define snareLength 6
-#define dLen 12  // 2 * M  
-#define bigLen 4096 // 2 ^ (2*M) 
+#define snareLength 3
+#define dLen 6  // 2 * M  
+#define bigLen 64  // 2 ^ (2*M) 
 #define len 3
 
 
@@ -90,6 +90,17 @@ int  main()
     }
 
    __CPROVER_assume(edgeCount == len);
+
+
+/* Added the code for the transpose of the matrix : 
+    for (i = 1; i < size; i++) {
+      for (j = 0; j < i; j++) {
+         temp = arr[i][j];
+         arr[i][j] = arr[j][i];
+         arr[j][i] = temp;
+      }
+   }
+*/
      
      struct EdgeBag edgeBag[len];
      
@@ -276,6 +287,8 @@ int  main()
     C2 = 1;
     C3 = 1;
 
+
+
     for  (i = 0; i < len; i++) {
         edgeBag[i].combinedMask = 0b0;
         edgeBag[i].combinedMask2 = 0b0;
@@ -338,7 +351,22 @@ int  main()
             }
         } 
 }
-     
+
+ for  (i = 0; i < len; i++) {
+
+        printf("The edge No.%d has this config : \n There is an edge between graph[%d][%d]" , i , edgeBag[i].ith, edgeBag[i].jth);
+
+        printf (" vSnare =  %d \n tSnare = %d\n combinedMask = %d \n  combinedMask = %d \n counts = %d \n counts2 = %d " ,edgeBag[i].vSnare , edgeBag[i].tSnare, edgeBag[i].combinedMask, edgeBag[i].combinedMask2, edgeBag[i].count,edgeBag[i].count2);
+   
+   }
+   
+     for  (i = 0; i < snareLength; i++) {
+        printf( "\n The qrfusionMatrix[[%d] = %d ", i , qrfusionMatrix[i]);
+    }
+
+    for  (i = 0; i < snareLength; i++){
+        printf(" \n The rqfusionMatrix[%d] = %d ", i, rqfusionMatrix[i]);
+    }
      
   for(i = 0;i < N ; i++) {
       for( j = 0;j < N; j++) {
