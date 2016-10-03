@@ -309,8 +309,8 @@ int  main()
            }
          
          // R SNARE TIME : 
-           if ( (v & (1 << j))) {       
-                if ((t & h) == 0) { 
+           if ( (t & (1 << j))) {       
+                if ((v & h) == 0) { 
 				   edgeBag[i].combinedMask2 = edgeBag[i].combinedMask2 | h;
 		           edgeBag[i].count2 = edgeBag[i].count2 + 1;
                    if (Vnodes[valj] & h) {
