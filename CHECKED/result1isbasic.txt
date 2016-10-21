@@ -1,0 +1,62 @@
+
+# This is an example of Inhibition on Edge and Inhibition on Node. 
+Both inhibition is driven by a different Arbitary boolean function ,  which is a function of 
+the molecules  present on that place. Fusion is driven by a M * M Matrix.
+
+Counter Example : 
+
+A graph={ { 0, 2 }, { 1, 0 } } 
+      
+  Nodei will be represented as a Pair of <Q , R> bitvector.
+  For example  Node 1 has tag :  <10 , 11> means  q1  is present
+  and r1 , r0 are present. At this node only q0 molecule is absent.   
+      
+             -------->
+    
+  Node 0     --------->   Node  1
+<11,11>                    <10,11>    
+        
+             <---------- 
+
+
+  Vnodes={ 3, 2 } ({ 11, 10 })
+
+  Tnodes={ 3, 3 } ({ 11, 11 })
+
+
+Fusion Matrix :
+------------------------------------------------------------
+
+  qrfusionMatrix={ 0, 3 } ({ 00, 11 })
+
+
+  rqfusionMatrix={ 1, 2 } ({ 01, 10 })
+
+
+        q0     q1    r0     r1          
+      --------------------------
+   q0    0      0     0      0     
+   
+   q1    0      0     1      1     
+   
+   r0    0      0     1      0      
+   
+   r1    0      0     0      1     
+   
+
+
+Arbitary Boolean function for each molecule present on the Edge and Node : 
+  
+  edegeInhib={0, 3072,  512, 2048} 
+  Q0  0000000000000000, 
+  Q1  0000110000000000 
+  
+  R0  0000001000000000, 
+  R1  0000100000000000, 
+
+  nodeInhib={ 35348, 3856 , 8722, 19984} 
+  Q0 : 1000101000010100, 
+  Q1 : 0000111100010000
+  
+  R0 : 0010001000010010,
+  R1 : 0100111000010000, 

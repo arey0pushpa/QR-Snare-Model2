@@ -1,0 +1,40 @@
+Correspondence between Graph Connectedness and Rules we Use * For QR Model Of Vesicular Traffic:
+
+   Model Name                                         Necessary Condition          Sufficient 
+
+1. Arbitrary Boolean Model:                             2 Connected-ness           3-Connected        
+
+       
+2. Only Fusion Matrix Model:                            No Graphs 
+
+
+3. Fusion Matrix (q-r) (r-q)                            No Graphs (May be due to 
+   + Inhibition on Node                                           No self-edges)                         
+     (Arbitrary Boolean Func)
+
+                                  
+4. Fusion Matrix (q-r) (r-q)                            3 Connectedness
+   + Inhibition on Node
+     (Arbitrary Boolean Func)
+
+      
+5.  Fusion Matrix (q-r) (r-q)                           Higher Connectedness Than 4 
+   + Inhibition on Node                                 (Till now i haven't found any higher conectivilty.
+( the same Matrix used for fusion)                        i have checked till N(node) = 4 and E(edges) = 12)
+                                        
+
+ 6.  Fusion Matrix (q-r) (r-q)                          3 Connectedness
+   + Inhib on Node    +   Inhib on Edge
+ (Arbitrary Boolean Func)  (Arb Boolean Func)
+
+    
+ 7.   Fusion Matrix (q-r) (r-q)                         4 Connectedness             4 conectdness
+  +Inhibition on Node + Inhibition on Edge
+ (Arb Boolean Func)  (same Matrix used for fusion)                            
+
+
+
+Adjacency matrix: 
+{{0 ,1 ,0 ,0 ,1},{0 ,0 ,1 ,1 ,0},{1 ,0 ,0 ,1 ,1},{0 ,0 ,1 ,0 ,1},{0 ,1 ,0 ,0 ,0}};
+
+* No Self Edges are allowed. I enforced that No self-edges are allowed in my code i.e., Graph[i][j] where i == j should be 0.   

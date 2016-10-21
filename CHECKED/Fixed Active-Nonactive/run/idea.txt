@@ -1,0 +1,11 @@
+The basic idea is to check activity of a molecule :
+
+  f(x0, x1, ... , xn) = 1 means the argument molecules caused the inhibition.
+  
+  if f(x0 , .. , xn) = 0 means the argument molecules were not able to cause inhibition 
+                               and hence the molecule is active.
+  
+ FUSION CHECK : 
+ 
+ f(x0 ... xn) = 1 in order for fusion to happen.
+

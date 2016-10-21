@@ -13,17 +13,17 @@ Correspondence between Graph Connectedness and Rules we Use * For QR Model Of Ve
      (Arbitrary Boolean Func)
 
                                   
-4. Fusion Matrix (q-r) (r-q)                            3 Connectedness
-   + Inhibition on Node
+4. Fusion Matrix (q-r) (r-q)                            3 Connectedness             3 Connectedness
+   + Inhibition on Edge
      (Arbitrary Boolean Func)
 
       
 5.  Fusion Matrix (q-r) (r-q)                           Higher Connectedness Than 4 
-   + Inhibition on Node                                 (Till now i haven't found any higher conectivilty.
+   + Inhibition on Edge                                 (Till now i haven't found any higher conectivilty.
 ( the same Matrix used for fusion)                        i have checked till N(node) = 4 and E(edges) = 12)
                                         
 
- 6.  Fusion Matrix (q-r) (r-q)                          3 Connectedness
+ 6.  Fusion Matrix (q-r) (r-q)                          3 Connectedness            3 Connectedness
    + Inhib on Node    +   Inhib on Edge
  (Arbitrary Boolean Func)  (Arb Boolean Func)
 

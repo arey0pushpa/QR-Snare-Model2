@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 4       
-#define N 4
-#define snareLength 4
-#define dLen 8  // 2 * M  
-#define bigLen 256// 2 ^ (2*M) 
-#define len 5
-
+#define M 3       
+#define N 3
+#define snareLength 3
+#define dLen 6  // 2 * M  
+#define bigLen 64 // 2 ^ (2*M) 
+#define len 4
 
 _Bool nondet_bool();
 unsigned int nondet_uint();
@@ -298,15 +297,16 @@ int  main()
            bv = ((v << M) | t);
            bvv = ((Vnodes[valj] << M) | Tnodes[valj]);
 
-           if ( (v & (1 << j))) {    
-            if ((vf & (b1 << bv)) != b0) {
+           if ( (v & (1 << j))) {     // Molecule is present
+            if ((vf & (b1 << bv)) != b0) {   // Arg molecules were not able to inhibit it i.e Molecule is  active 
 			  edgeBag[i].combinedMask = edgeBag[i].combinedMask | f;
               edgeBag[i].count = edgeBag[i].count + 1; 
               placeHolder = (Tnodes[valj] & f);
+              // FUSION CHECK
 	          for ( l = 0; l < snareLength; l++) {
-	              if  ( placeHolder & (1 << l)) { 
+	              if  ( placeHolder & (1 << l)) { // frd molecule present on the node ?
 		               vff  =  nodeInhib[l];  // Node Inhibition of lth Rsnare   
-                       if ((vff  & (b1 << bvv)) != b0) {
+                       if ((vff  & (b1 << bvv)) != b0) {  // Check this molecule is active
                             Ck = 1; 
                        }
                   }
@@ -318,14 +318,15 @@ int  main()
 
          vf = edegeInhib[j];  // Edge inhibition of jth RSnare
          if ( (t & (1 << j)) ) {        
-             if ((vf & (b1 << bv)) != b0) {
+             if ((vf & (b1 << bv)) != b0) {   // Arg molecules were not able to inhibit it i.e Molecule is  active 
 				edgeBag[i].combinedMask2 = edgeBag[i].combinedMask2 | h;
                 edgeBag[i].count2 = edgeBag[i].count2 + 1;    
                 placeHolder = (Vnodes[valj] & h);
+	             // FUSION CHECK
 	            for ( l = 0; l < snareLength; l++) {
-	                if  ( placeHolder & (1 << l)) { 
+	                if  ( placeHolder & (1 << l)) {  // frd molecule present on the node ?
 		               vff  =  nodeInhib[l + M];    // Node Inhibition of lth Qsnare
-                       if ((vff  & (b1 << bvv)) != b0) {
+                       if ((vff  & (b1 << bvv)) != b0) {  // Check this molecule is active
                            Cl = 1; 
                       }
                  }
@@ -346,19 +347,19 @@ int  main()
 	           
 	           for (m = 0; m < snareLength; m++) {   	    
    
-                  if (edgeBag[i].combinedMask & (1 << m)) {
-		             if (Tnodes[k] & (1 << m)) {  
-		                  vf = nodeInhib[m];
-			              if (vf & (b1 << bv)) {  
+                  if (edgeBag[i].combinedMask & (1 << m)) { // if molecule is in combined mask
+		             if (Tnodes[k] & (1 << m)) {               // check for its presence 
+		                  vf = nodeInhib[m];                  
+			              if ((vf & (b1 << bv)) != b0)  {  
 			                  C3 = 0;
 	                       }
                      }
                   }
                   
-                  if (edgeBag[i].combinedMask2 & (1 << m)) {
+                  if (edgeBag[i].combinedMask2 & (1 << m)) { // if molecule is in combined mask check for its absence
 		             if (Vnodes[k] & (1 << m)) {   
 		                  vf = nodeInhib[m + M];
-    			          if (vf & (b1 << bv)) {  
+    			          if ((vf & (b1 << bv)) != b0){  
 			                  C3 = 0;
 	                       }
                       }

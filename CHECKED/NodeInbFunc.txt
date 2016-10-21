@@ -1,0 +1,70 @@
+
+# This is an example of Inhibition on Edge and No inhibition on Node. 
+Edge inhibition is driven by an Arbitary boolean function ,  which is a function of 
+the molecules  present on that edge. Fusion is driven by a M * M Matrix.
+
+Counter Example : 
+
+A graph={ { 0, 1 }, { 2, 0 } }
+      
+  Nodei will be represented as a Pair of <Q , R> bitvector.
+  For example  Node 0 has tag :  <111 , 110> means q2 q1 q0 are present
+  and r2 , r1 are present. At this node only r0 molecule is absent.   
+      
+             <--------
+    
+  Node 0     --------->   Node  1
+<111,110>               <101,101>    
+        
+             <---------- 
+
+  Vnodes={ 7, 5 } ({ 111, 101 })
+
+  Tnodes={ 6, 5 } ({ 110, 101 })
+
+
+Matrix Q-R :
+-----------------------------------------------------------------------
+
+qrfusionMatrix={ 1, 0, 2 } ({ 001, 000, 010 })
+
+rqfusionMatrix={ 0, 0, 2 } ({ 000, 000, 010 })
+
+
+         q0     q1    q2     r0     r1     r2 
+      ----------------------------------------
+   q0    0      0     0      1      0      0 
+   
+   q1    0      0     0      0      0      0
+   
+   q2    0      0     0      0      1      0
+   
+   r0    0      0     0      0      0      0
+   
+   r1    0      0     0      0      0      0
+   
+   r2    0      1     0      0      0      0
+   
+
+ 
+
+Arbitary Boolean function for each molecule present on the Edge : 
+ 
+ edegeInhib={ 4096, 17660905525248, 17592186048512 , 17660905525248, 17660905525248, 17660905521152 }
+ 
+  V0 :    0000000000000000000000000000000000000000000000000001000000000000,
+  V1 :    0000000000000000000100000001000000000000000000000001000000000000,
+  V2 :    0000000000000000000100000000000000000000000000000001000000000000
+ 
+  t0 :    0000000000000000000100000001000000000000000000000001000000000000,
+  t1 :    0000000000000000000100000001000000000000000000000001000000000000, 
+  t2 :    0000000000000000000100000001000000000000000000000000000000000000,
+
+Final Graph :
+
+
+      
+  To check whether a molecule is active or not. Lets take an example :
+  
+  
+

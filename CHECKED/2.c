@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 
-#define M 5
-#define N 3
-#define snareLength 5
-#define dLen 10  // 2 * M  
-#define bigLen 256  // 2 ^ (2*M) 
-#define len 5
+#define M 3
+#define N 2
+#define snareLength 3
+#define dLen 6  // 2 * M  
+#define bigLen 64  // 2 ^ (2*M) 
+#define len 3
 
 
 _Bool nondet_bool();

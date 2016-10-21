@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 4       
-#define N 4
-#define snareLength 4
-#define dLen 8  // 2 * M  
-#define bigLen 256// 2 ^ (2*M) 
-#define len 5
+#define M 2
+#define N 2
+#define snareLength 2
+#define dLen 4  // 2 * M  
+#define bigLen 16 // 2 ^ (2*M) 
+#define len 3
 
 
 _Bool nondet_bool();
@@ -294,15 +294,15 @@ int  main()
         for  (j = 0; j < snareLength; j++) {   
            f = qrfusionMatrix[j];
            h = rqfusionMatrix[j];   
-           vf = edegeInhib[j + M]; // EdgeInhibition of jth Qsnare
-           bv = ((v << M) | t);
+       
            bvv = ((Vnodes[valj] << M) | Tnodes[valj]);
 
            if ( (v & (1 << j))) {    
-            if ((vf & (b1 << bv)) != b0) {
+            if ((t & f) == 0) {   // Check whethere molecule is inhibited . 
 			  edgeBag[i].combinedMask = edgeBag[i].combinedMask | f;
               edgeBag[i].count = edgeBag[i].count + 1; 
               placeHolder = (Tnodes[valj] & f);
+              //FusioN Chck 
 	          for ( l = 0; l < snareLength; l++) {
 	              if  ( placeHolder & (1 << l)) { 
 		               vff  =  nodeInhib[l];  // Node Inhibition of lth Rsnare   
@@ -316,12 +316,12 @@ int  main()
 
          // R SNARE TIME : 
 
-         vf = edegeInhib[j];  // Edge inhibition of jth RSnare
          if ( (t & (1 << j)) ) {        
-             if ((vf & (b1 << bv)) != b0) {
+             if ((v & h) == 0) {
 				edgeBag[i].combinedMask2 = edgeBag[i].combinedMask2 | h;
                 edgeBag[i].count2 = edgeBag[i].count2 + 1;    
                 placeHolder = (Vnodes[valj] & h);
+                //Fusion Check
 	            for ( l = 0; l < snareLength; l++) {
 	                if  ( placeHolder & (1 << l)) { 
 		               vff  =  nodeInhib[l + M];    // Node Inhibition of lth Qsnare
@@ -349,7 +349,7 @@ int  main()
                   if (edgeBag[i].combinedMask & (1 << m)) {
 		             if (Tnodes[k] & (1 << m)) {  
 		                  vf = nodeInhib[m];
-			              if (vf & (b1 << bv)) {  
+			              if ((vf & (b1 << bv)) == b0) {  
 			                  C3 = 0;
 	                       }
                      }
@@ -358,7 +358,7 @@ int  main()
                   if (edgeBag[i].combinedMask2 & (1 << m)) {
 		             if (Vnodes[k] & (1 << m)) {   
 		                  vf = nodeInhib[m + M];
-    			          if (vf & (b1 << bv)) {  
+    			          if ((vf & (b1 << bv)) == b0) {  
 			                  C3 = 0;
 	                       }
                       }

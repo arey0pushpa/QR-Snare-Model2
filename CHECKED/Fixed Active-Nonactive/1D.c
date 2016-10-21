@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 4       
-#define N 4
-#define snareLength 4
-#define dLen 8  // 2 * M  
-#define bigLen 256// 2 ^ (2*M) 
-#define len 5
+
+#define M 3
+#define N 2
+#define snareLength 3
+#define dLen 6  // 2 * M  
+#define bigLen 64  // 2 ^ (2*M) 
+#define len 3
 
 
 _Bool nondet_bool();
@@ -25,16 +26,16 @@ unsigned int  nondet (){
 };
 
 unsigned int zeroTon(unsigned int n) {
-    unsigned int result = nondet_uint();
-    __CPROVER_assume(result >=0 && result <=n);
-    return result ;
+  unsigned int result = nondet_uint();
+  __CPROVER_assume(result >=0 && result <=n);
+  return result ;
 };
 
 bigvector nondetBV() {
-	     bigvector bee;
-	     __CPROVER_assume(bee >= 0b0 && bee <= 0b1111);  
-	     return bee;  }
-
+   bigvector bee;
+   __CPROVER_assume(bee >= 0b0 && bee <= 0b1111);  
+   return bee;
+}
 
 struct EdgeBag
  {
@@ -51,8 +52,9 @@ struct EdgeBag
 
 
 int  main()
+ 
  {    
-	 
+
     unsigned int pos, i, j, k, l, m ,w, x, y , iVal, jVal, g, g0, gl, lastg, ng, nl, nl2 ;
     unsigned int edgePos = 0, bagNo = 0, colorNode = 0 , minColor, cPos = 0 , tComp, result;
     unsigned int  ticks, ticks2, valj, vali , calc, edgeCount = 0;
@@ -69,8 +71,8 @@ int  main()
     snareVector Tedge[N][N], Vedge[N][N] , Vedge2[N][N] , Tedge2[N][N] , fComp , bComp;    
     snareVector qrfusionMatrix[snareLength], rqfusionMatrix[snareLength];     
   
-    unsigned int graph[N][N]; 
-
+    unsigned int graph[N][N];
+    
     for (i = 0; i < N; i++) {
        for (j = 0; j < N; j++) {
 	      if(i != j) {
@@ -88,14 +90,14 @@ int  main()
     }
 
    __CPROVER_assume(edgeCount == len);
-     
-     struct EdgeBag edgeBag[len];
 
-     for  (i = 0; i < N; i++) {
-             for  (j = 0; j < N; j++) {
-               if ((graph[i][j] == 1) || (graph[i][j] == 2)) {
-                   edgeBag[edgePos].ith = i;     // Record the source node
-                   edgeBag[edgePos].jth = j;     // Record the target Node
+    struct EdgeBag edgeBag[len];
+     
+     for (i = 0; i < N; i++) {
+        for (j = 0; j < N; j++) {
+            if ((graph[i][j] == 1) || (graph[i][j] == 2)) {
+                 edgeBag[edgePos].ith = i;    
+                 edgeBag[edgePos].jth = j;    
  
                    // Only molecule present at the nodes are allowed to fly out.
                    __CPROVER_assume((edgeBag[edgePos].vSnare  & (~ Vnodes[i])) == 0);
@@ -122,25 +124,7 @@ int  main()
 
           }
      }
-
-     /*  
-         C4 = 0;
-         for ( i = 0; i < N ; i++) {
-             calc = 0;
-             for ( j = 0 ; j < len; j++) {              
-                if ( (edgeBag[j].ith == i) || (edgeBag[j].jth == i) ){
-                     calc = calc + 1;
-                }
-               }
-             __CPROVER_assume(calc >= 3);
-             if(calc < 4) {
-                 C4 = 1;
-             }
-         }
-     */
-  
-
-    
+     
 	for (j = 0; j < len; j++) {   
          C0 = (C0 && (edgeBag[j].vSnare != 0));
          C0 = (C0 && (edgeBag[j].tSnare != 0));
@@ -273,20 +257,24 @@ int  main()
     }   
 
 
+    C2 = 1;
+    C3 = 1;
+
+
 
     for  (i = 0; i < len; i++) {
-        edgeBag[i].combinedMask = 0b0; 
-        edgeBag[i].combinedMask2 = 0b0; 
-        
-	    total = 0b0;
-        edgeBag[i].count = 0;
-        edgeBag[i].count2 = 0;
-        
-        Ck = 0;
+        edgeBag[i].combinedMask = 0b0;
+        edgeBag[i].combinedMask2 = 0b0;
+        total = 0b0;        
+	    
+	    edgeBag[i].count = 0 ;
+	    edgeBag[i].count2 = 0;
+	    Ck = 0;
         Cl = 0;
         
         v = edgeBag[i].vSnare;
         t = edgeBag[i].tSnare;
+        bv = ((v << M) | t);
         
         valj = edgeBag[i].jth;
         vali = edgeBag[i].ith;
@@ -294,82 +282,50 @@ int  main()
         for  (j = 0; j < snareLength; j++) {   
            f = qrfusionMatrix[j];
            h = rqfusionMatrix[j];   
-           vf = edegeInhib[j + M]; // EdgeInhibition of jth Qsnare
-           bv = ((v << M) | t);
+                       
            bvv = ((Vnodes[valj] << M) | Tnodes[valj]);
-
-           if ( (v & (1 << j))) {    
-            if ((vf & (b1 << bv)) != b0) {
-			  edgeBag[i].combinedMask = edgeBag[i].combinedMask | f;
-              edgeBag[i].count = edgeBag[i].count + 1; 
-              placeHolder = (Tnodes[valj] & f);
-	          for ( l = 0; l < snareLength; l++) {
-	              if  ( placeHolder & (1 << l)) { 
-		               vff  =  nodeInhib[l];  // Node Inhibition of lth Rsnare   
-                       if ((vff  & (b1 << bvv)) != b0) {
-                            Ck = 1; 
-                       }
+   
+          // GSNARE TIME :	
+           vf = edegeInhib[j + M]; // EdgeInhibition of jth Qsnare
+           if ( (v & (1 << j))) {                 	 
+               if ((vf & (b1 << bv)) != b0) { 
+				  edgeBag[i].combinedMask = edgeBag[i].combinedMask | f;  
+                  edgeBag[i].count = edgeBag[i].count + 1;
+                  if (Tnodes[valj] & f) {
+                       Ck = 1; 
                   }
               }
-	        }
-          }
-
+           }
+         
          // R SNARE TIME : 
-
-         vf = edegeInhib[j];  // Edge inhibition of jth RSnare
-         if ( (t & (1 << j)) ) {        
-             if ((vf & (b1 << bv)) != b0) {
-				edgeBag[i].combinedMask2 = edgeBag[i].combinedMask2 | h;
-                edgeBag[i].count2 = edgeBag[i].count2 + 1;    
-                placeHolder = (Vnodes[valj] & h);
-	            for ( l = 0; l < snareLength; l++) {
-	                if  ( placeHolder & (1 << l)) { 
-		               vff  =  nodeInhib[l + M];    // Node Inhibition of lth Qsnare
-                       if ((vff  & (b1 << bvv)) != b0) {
-                           Cl = 1; 
-                      }
-                 }
-             }
-	     }
-    }
-}    
-         if(Ck == 1 || Cl == 1) {
+           vf = edegeInhib[j];
+           if ( (t & (1 << j))) {       
+                if ((vf & (b1 << bv)) != b0) { 
+				   edgeBag[i].combinedMask2 = edgeBag[i].combinedMask2 | h;
+		           edgeBag[i].count2 = edgeBag[i].count2 + 1;
+                   if (Vnodes[valj] & h) {
+		              Cl = 1;
+                   }
+	            }
+	       } 
+}
+        if(Ck == 1 || Cl == 1) {
              C2 = C2 && 1;
          }
          else {
              C2 = C2 && 0;
          }
-
-	    for (k = 0; k < N; k++) {
-	       if( k != edgeBag[i].jth) {              
-               bv = ((Vnodes[k] << M) | Tnodes[k]);
-	           
-	           for (m = 0; m < snareLength; m++) {   	    
    
-                  if (edgeBag[i].combinedMask & (1 << m)) {
-		             if (Tnodes[k] & (1 << m)) {  
-		                  vf = nodeInhib[m];
-			              if (vf & (b1 << bv)) {  
-			                  C3 = 0;
-	                       }
-                     }
-                  }
-                  
-                  if (edgeBag[i].combinedMask2 & (1 << m)) {
-		             if (Vnodes[k] & (1 << m)) {   
-		                  vf = nodeInhib[m + M];
-    			          if (vf & (b1 << bv)) {  
-			                  C3 = 0;
-	                       }
-                      }
-                  }
-                }
-	     }
-	 }
- }  
-     
-    
-   for  (i = 0; i < len; i++) {
+         for (k = 0; k < N; k++) {
+	         if( k != edgeBag[i].jth) {               
+	            if ((edgeBag[i].combinedMask & Tnodes[k])  || (edgeBag[i].combinedMask2 & Vnodes[k])) {
+			        C3 = 0;                    
+               }
+            }
+        } 
+}
+
+ for  (i = 0; i < len; i++) {
 
         printf("The edge No.%d has this config : \n There is an edge between graph[%d][%d]" , i , edgeBag[i].ith, edgeBag[i].jth);
 
@@ -377,36 +333,23 @@ int  main()
    
    }
    
-    for  (i = 0; i < snareLength; i++) {
+     for  (i = 0; i < snareLength; i++) {
         printf( "\n The qrfusionMatrix[[%d] = %d ", i , qrfusionMatrix[i]);
     }
 
     for  (i = 0; i < snareLength; i++){
         printf(" \n The rqfusionMatrix[%d] = %d ", i, rqfusionMatrix[i]);
     }
-
-    for  (i = 0; i < N; i++){
-        printf("T-Nodes[%d] = %d" , i , Tnodes[i]);
-    }
-    for  (i = 0; i < N; i++){
-        printf("V-Nodes[%d] = %d" , i , Vnodes[i]);
-    }
-
-   for  (i = 0; i < dLen; i++){
-	    printf(" edegeInhib[%d] = %d" , i ,  edegeInhib[i]);
-        printf("nodeInhib[%d] = %d" , i ,  nodeInhib[i]);
+     
+  for(i = 0;i < N ; i++) {
+      for( j = 0;j < N; j++) {
+         printf("Graph[%d][%d] = %d",i,j,graph[i][j]);
+      }
   }
- 
-
-    for(i = 0;i < N ; i++) {
-        for( j = 0;j < N; j++) {
-            printf("Graph[%d][%d] = %d",i,j,graph[i][j]);
-        }
-    }
 
     printf("\nThe value of : \n C0 = %d \n C1 : %d \n C2 : %d , C3 : %d \n,C4 : %d , C5 : %d",C0,C1,C2,C3,C4,C5);
     printf(" the value of mr.Ticks is %d and len was %d ", ticks , len);
-    
+  //  assert(0);
   __CPROVER_assert(! ( C0 && C1 && C2 && C3) , "Graph that satisfy friendZoned model exists");  
  
 }

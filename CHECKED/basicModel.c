@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 4       
-#define N 4
-#define snareLength 4
-#define dLen 8  // 2 * M  
-#define bigLen 256// 2 ^ (2*M) 
-#define len 5
+#define M 5       
+#define N 5
+#define snareLength 5
+#define dLen 10  // 2 * M  
+#define bigLen 1024 // 2 ^ (2*M) 
+#define len 10
 
 
 _Bool nondet_bool();
@@ -69,26 +69,10 @@ int  main()
     snareVector Tedge[N][N], Vedge[N][N] , Vedge2[N][N] , Tedge2[N][N] , fComp , bComp;    
     snareVector qrfusionMatrix[snareLength], rqfusionMatrix[snareLength];     
   
-    unsigned int graph[N][N]; 
+    unsigned int graph[N][N] = {{0 ,0 ,1 ,1 ,0},{1 ,0 ,0 ,0 ,0},{1 ,1 ,0 ,2 ,1},{0 ,0 ,0 ,0 ,1},{0 ,1 ,0 ,0 ,0}};
 
-    for (i = 0; i < N; i++) {
-       for (j = 0; j < N; j++) {
-	      if(i != j) {
-		      __CPROVER_assume(graph[i][j] >= 0 && graph[i][j] <=2);
-	          if (graph[i][j] == 1) {
-                 edgeCount += 1;	
-		      }
-              else if (graph[i][j] == 2) {
-		         edgeCount += 2;
-		      }
-          }
-          else  
-		      __CPROVER_assume(graph[i][j] == 0); 
-       } 
-    }
 
-   __CPROVER_assume(edgeCount == len);
-     
+
      struct EdgeBag edgeBag[len];
 
      for  (i = 0; i < N; i++) {
@@ -123,22 +107,6 @@ int  main()
           }
      }
 
-     /*  
-         C4 = 0;
-         for ( i = 0; i < N ; i++) {
-             calc = 0;
-             for ( j = 0 ; j < len; j++) {              
-                if ( (edgeBag[j].ith == i) || (edgeBag[j].jth == i) ){
-                     calc = calc + 1;
-                }
-               }
-             __CPROVER_assume(calc >= 3);
-             if(calc < 4) {
-                 C4 = 1;
-             }
-         }
-     */
-  
 
     
 	for (j = 0; j < len; j++) {   
@@ -299,7 +267,7 @@ int  main()
            bvv = ((Vnodes[valj] << M) | Tnodes[valj]);
 
            if ( (v & (1 << j))) {    
-            if ((vf & (b1 << bv)) != b0) {
+            if ((vf & (b1 << bv)) == b0) {
 			  edgeBag[i].combinedMask = edgeBag[i].combinedMask | f;
               edgeBag[i].count = edgeBag[i].count + 1; 
               placeHolder = (Tnodes[valj] & f);
@@ -318,7 +286,7 @@ int  main()
 
          vf = edegeInhib[j];  // Edge inhibition of jth RSnare
          if ( (t & (1 << j)) ) {        
-             if ((vf & (b1 << bv)) != b0) {
+             if ((vf & (b1 << bv)) == b0) {
 				edgeBag[i].combinedMask2 = edgeBag[i].combinedMask2 | h;
                 edgeBag[i].count2 = edgeBag[i].count2 + 1;    
                 placeHolder = (Vnodes[valj] & h);
@@ -369,6 +337,7 @@ int  main()
  }  
      
     
+    /*
    for  (i = 0; i < len; i++) {
 
         printf("The edge No.%d has this config : \n There is an edge between graph[%d][%d]" , i , edgeBag[i].ith, edgeBag[i].jth);
@@ -403,7 +372,7 @@ int  main()
             printf("Graph[%d][%d] = %d",i,j,graph[i][j]);
         }
     }
-
+*/
     printf("\nThe value of : \n C0 = %d \n C1 : %d \n C2 : %d , C3 : %d \n,C4 : %d , C5 : %d",C0,C1,C2,C3,C4,C5);
     printf(" the value of mr.Ticks is %d and len was %d ", ticks , len);
     
