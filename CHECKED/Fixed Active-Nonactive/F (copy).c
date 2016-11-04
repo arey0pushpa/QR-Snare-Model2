@@ -38,11 +38,11 @@ bigvector nondetBV() {
 
 struct EdgeBag
  {
-   unsigned int ith;
-   unsigned int jth;
+   unsigned int ith; // source Node
+   unsigned int jth; // Taget node
    unsigned int count;
    unsigned int count2;
-   bitvector edgeWeight;
+  // bitvector edgeWeight; 
    snareVector  vSnare;
    snareVector tSnare;
    snareVector combinedMask; 
@@ -71,6 +71,9 @@ int  main()
   
     unsigned int graph[N][N]; 
 
+// 1. Restrict the graph taking only two parellel edges 
+// 2. Fix the edges equals to Len.
+
     for (i = 0; i < N; i++) {
        for (j = 0; j < N; j++) {
 	      if(i != j) {
@@ -89,8 +92,10 @@ int  main()
 
    __CPROVER_assume(edgeCount == len);
      
+// Every edge is tagged by the structure. (See the "Structure" of the Structure)     
      struct EdgeBag edgeBag[len];
 
+// Fix the 
      for  (i = 0; i < N; i++) {
              for  (j = 0; j < N; j++) {
                if ((graph[i][j] == 1) || (graph[i][j] == 2)) {
@@ -122,8 +127,8 @@ int  main()
 
           }
      }
-
-     /*  
+// Three onnected but not 4 connected.
+      
          C4 = 0;
          for ( i = 0; i < N ; i++) {
              calc = 0;
@@ -137,7 +142,7 @@ int  main()
                  C4 = 1;
              }
          }
-     */
+     
   
 
     
@@ -160,7 +165,7 @@ int  main()
                 // If there is a back edge from taget to source we are done.
                 if (((graph[valj][vali] >= 1) && (Vedge[valj][vali] & (1 << j) )) || ((graph[valj][vali] == 2) && (Vedge2[valj][vali] & (1 << j)  )) )   {
                       C1 = C1 && 1;
-                }
+                 }
                 // Else continue checking for the cycle
                 else { 
          		// g0 is unsigned int checks if there is an edge btw two nodes
@@ -183,7 +188,7 @@ int  main()
 	            vl  = Vedge[path[big - 1]][vali];    // snareVector gets the edgeweight of the corresponding edge.
                 vl2 = Vedge2[path[big - 1]][vali];
 
-               if ( ( (( g0 == 1) && (v0 & (1 << j))) ||  ( (g0 == 2) &&  ( (v0 & (1 << j)) || ( v2 & (1 << j)) ) )) &&  ((( gl == 1) && (vl & (1 << j))) ||  ( (gl == 2) &&  ( (vl & ( 1 << j)) || ( vl2 & (1 << j)) ) )))  {                  
+               if (! ( (( g0 == 1) && (v0 & (1 << j))) ||  ( (g0 == 2) &&  ( (v0 & (1 << j)) || ( v2 & (1 << j)) ) )) &&  ((( gl == 1) && (vl & (1 << j))) ||  ( (gl == 2) &&  ( (vl & ( 1 << j)) || ( vl2 & (1 << j)) ) )))  {                  
                    C1 = C1 && 1;
                }
 
@@ -272,7 +277,7 @@ int  main()
       }  // jth for closed    
     }   
 
-
+// Fusion Rules :
 
     for  (i = 0; i < len; i++) {
         edgeBag[i].combinedMask = 0b0; 
@@ -406,6 +411,17 @@ int  main()
 
     printf("\nThe value of : \n C0 = %d \n C1 : %d \n C2 : %d , C3 : %d \n,C4 : %d , C5 : %d",C0,C1,C2,C3,C4,C5);
     printf(" the value of mr.Ticks is %d and len was %d ", ticks , len);
+    assert(0);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   __CPROVER_assert(! ( C0 && C1 && C2 && C3) , "Graph that satisfy friendZoned model exists");  
  

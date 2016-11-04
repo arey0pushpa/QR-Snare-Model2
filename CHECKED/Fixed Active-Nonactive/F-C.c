@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 2 
+#define M 2
 #define N 2
 #define snareLength 2
-#define dLen 4   // 2 * M  
+#define dLen 4  // 2 * M  
 #define bigLen 16 // 2 ^ (2*M) 
 #define len 3
 
@@ -139,6 +139,40 @@ int  main()
          }
      */
   
+
+	 C5 = 1;
+
+    for ( i = 0; i < N; i++) {
+        for (j = 0; j < N ; j++) {
+            if ( graph[i][j] >= 1 && (i != j)) {  // if there is Direct edge we are done
+                C5 = C5 && 1;
+             }
+            else if (i != j) {  // Else case
+                unsigned int nub;  // Define max hop
+                __CPROVER_assume( nub >= 1 && (nub <= N-2));
+                unsigned int gPath[nub];
+                
+                for (k = 0; k < nub; k++) {   // zdynamic N - 2 iteration
+                     gPath[k] = zeroTon(N-1);
+                 }
+                 
+                //  Make sure first edge is connected to i  and last edge is connected to j
+                if( (graph[i][gPath[0]] >= 1) && (graph[gPath[nub - 1]][j] >= 1))   
+                     C5 = C5 && 1;
+                else 
+                     C5 = 0;
+
+               // rest Of the case is just checking edge btw consecutive array elements
+                 for (l = 0; l < nub - 1; l++) {         //Dynamic N - 3  iteration
+                       if ( graph[gPath[l]][gPath[l+1]] >= 1 ) 
+                               C5 = C5 && 1;
+                        else 
+                            C5 = 0;
+                     }
+
+            }
+        }
+    }
 
     
 	for (j = 0; j < len; j++) {   
@@ -298,10 +332,11 @@ int  main()
            bvv = ((Vnodes[valj] << M) | Tnodes[valj]);
 
            if ( (v & (1 << j))) {    
-            if ((t & f) == 0) {
+            if ((t & f) == 0) {   // Check whethere molecule is inhibited . 
 			  edgeBag[i].combinedMask = edgeBag[i].combinedMask | f;
               edgeBag[i].count = edgeBag[i].count + 1; 
               placeHolder = (Tnodes[valj] & f);
+              //FusioN Chck 
 	          for ( l = 0; l < snareLength; l++) {
 	              if  ( placeHolder & (1 << l)) { 
 		               vff  =  nodeInhib[l];  // Node Inhibition of lth Rsnare   
@@ -320,6 +355,7 @@ int  main()
 				edgeBag[i].combinedMask2 = edgeBag[i].combinedMask2 | h;
                 edgeBag[i].count2 = edgeBag[i].count2 + 1;    
                 placeHolder = (Vnodes[valj] & h);
+                //Fusion Check
 	            for ( l = 0; l < snareLength; l++) {
 	                if  ( placeHolder & (1 << l)) { 
 		               vff  =  nodeInhib[l + M];    // Node Inhibition of lth Qsnare
@@ -347,7 +383,7 @@ int  main()
                   if (edgeBag[i].combinedMask & (1 << m)) {
 		             if (Tnodes[k] & (1 << m)) {  
 		                  vf = nodeInhib[m];
-			              if (vf & (b1 << bv)) {  
+			              if ((vf & (b1 << bv)) == b0) {  
 			                  C3 = 0;
 	                       }
                      }
@@ -356,7 +392,7 @@ int  main()
                   if (edgeBag[i].combinedMask2 & (1 << m)) {
 		             if (Vnodes[k] & (1 << m)) {   
 		                  vf = nodeInhib[m + M];
-    			          if (vf & (b1 << bv)) {  
+    			          if ((vf & (b1 << bv)) == b0) {  
 			                  C3 = 0;
 	                       }
                       }
@@ -404,7 +440,7 @@ int  main()
 
     printf("\nThe value of : \n C0 = %d \n C1 : %d \n C2 : %d , C3 : %d \n,C4 : %d , C5 : %d",C0,C1,C2,C3,C4,C5);
     printf(" the value of mr.Ticks is %d and len was %d ", ticks , len);
-    //assert(0);
+    
   __CPROVER_assert(! ( C0 && C1 && C2 && C3) , "Graph that satisfy friendZoned model exists");  
  
 }
