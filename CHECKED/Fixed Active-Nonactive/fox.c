@@ -53,7 +53,7 @@ struct EdgeBag
 int  main()
  {    
 	 
-    unsigned int pos, i, j, k, l, m ,w, x, y , iVal, jVal, g, g0, gl, lastg, ng, nl, nl2 ;
+    unsigned int pos, i, j, k, l, m ,w, x, y , z, e1,e2,e3, iVal, jVal, g, g0, gl, lastg, ng, nl, nl2 ;
     unsigned int edgePos = 0, bagNo = 0, colorNode = 0 , minColor, cPos = 0 , tComp, result;
     unsigned int  ticks, ticks2, valj, vali , calc, edgeCount = 0;
     _Bool Ck=0, Cl = 0,Cf = 1, C0 = 1, C1 = 1, C2 = 1, C3 = 1, C4, C5, C6 , C7; 
@@ -139,7 +139,57 @@ int  main()
          }
      */
   
+   C5 = 1;
 
+/* For_all (e1,e2,e3) :
+     e1 belongs_to {Edge}
+     # G' is graph with these edges removed
+     G' = G \ e1 , e2 , e3
+     Check_strongly_connected(G')
+*/
+for (x = 0 ; x < E; x++) {
+for (y=0  ; y < E; y++) {
+ if (x != y){
+   for (z=0;z<E;z++) {
+      if ((z != y) && ( z != x)) {
+	        graph[edgeBag[x].ith][edgeBag[x].jth] -= 1;
+	        graph[edgeBag[y].ith][edgeBag[y].jth] -= 1;
+	        graph[edgeBag[z].ith][edgeBag[z].jth] -= 1;
+	        
+          for ( i = 0; i < N; i++) {
+          for (j = 0; j < N ; j++) {
+              if ( graph[i][j] >= 1 && (i != j)) {  // if there is Direct edge we are done
+                C5 = C5 && 1;
+               }
+              else if (i != j) {  // Else case
+                  unsigned int nub;  // Define max hop
+                  __CPROVER_assume( nub >= 1 && (nub <= N-2));
+                  unsigned int gPath[nub];
+                
+                  for (k = 0; k < nub; k++) {   // zdynamic N - 2 iteration
+                     gPath[k] = zeroTon(N-1);
+                   }
+                 
+                //  Make sure first edge is connected to i  and last edge is connected to j
+                  if( (graph[i][gPath[0]] >= 1) && (graph[gPath[nub - 1]][j] >= 1))   
+                     C5 = C5 && 1;
+                   else 
+                     C5 = 0;
+
+               // rest Of the case is just checking edge btw consecutive array elements
+                 for (l = 0; l < nub - 1; l++) {         //Dynamic N - 3  iteration
+                       if ( graph[gPath[l]][gPath[l+1]] >= 1 ) 
+                               C5 = C5 && 1;
+                        else 
+                            C5 = 0;
+                     }
+            }
+        }
+    }
+  }
+ }
+}
+}}
     
 	for (j = 0; j < len; j++) {   
          C0 = (C0 && (edgeBag[j].vSnare != 0));
