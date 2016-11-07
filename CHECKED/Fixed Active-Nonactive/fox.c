@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 2 
+#define M 3
 #define N 2
-#define snareLength 2
-#define dLen 4   // 2 * M  
-#define bigLen 16 // 2 ^ (2*M) 
-#define len 3
+#define snareLength 3
+#define dLen 6   // 2 * M  
+#define bigLen 64 // 2 ^ (2*M) 
+#define len 4
 
 
 _Bool nondet_bool();
@@ -53,7 +53,7 @@ struct EdgeBag
 int  main()
  {    
 	 
-    unsigned int pos, i, j, k, l, m ,w, x, y , z, e1,e2,e3, iVal, jVal, g, g0, gl, lastg, ng, nl, nl2 ;
+    unsigned int pos, i, j, k, l, m ,n ,w, x, y , z, e1,e2,e3, iVal, jVal, g, g0, gl, lastg, ng, nl, nl2 ;
     unsigned int edgePos = 0, bagNo = 0, colorNode = 0 , minColor, cPos = 0 , tComp, result;
     unsigned int  ticks, ticks2, valj, vali , calc, edgeCount = 0;
     _Bool Ck=0, Cl = 0,Cf = 1, C0 = 1, C1 = 1, C2 = 1, C3 = 1, C4, C5, C6 , C7; 
@@ -122,9 +122,8 @@ int  main()
 
           }
      }
-
-     /*  
-         C4 = 0;
+ /* 
+     C4 = 0;
          for ( i = 0; i < N ; i++) {
              calc = 0;
              for ( j = 0 ; j < len; j++) {              
@@ -137,59 +136,66 @@ int  main()
                  C4 = 1;
              }
          }
-     */
-  
-   C5 = 1;
+   */
+  C5 = 1;
 
-/* For_all (e1,e2,e3) :
-     e1 belongs_to {Edge}
-     # G' is graph with these edges removed
-     G' = G \ e1 , e2 , e3
-     Check_strongly_connected(G')
-*/
-for (x = 0 ; x < E; x++) {
-for (y=0  ; y < E; y++) {
- if (x != y){
-   for (z=0;z<E;z++) {
-      if ((z != y) && ( z != x)) {
-	        graph[edgeBag[x].ith][edgeBag[x].jth] -= 1;
-	        graph[edgeBag[y].ith][edgeBag[y].jth] -= 1;
-	        graph[edgeBag[z].ith][edgeBag[z].jth] -= 1;
-	        
+  for (x = 0; x < len; x++) {
+     for (y = (x + 1); y < len; y++) {
+        for (z = (y + 1); z < len; z++) {
+		  
+		   unsigned int graph1[N][N];
+           
+           for (m=0;m<N;m++){
+			  for (n=0;n<N;n++) {
+		        graph1[m][n] = graph[m][n];
+		      }
+	        }
+	         
+	        graph1[edgeBag[x].ith][edgeBag[x].jth] = (graph1[edgeBag[x].ith][edgeBag[x].jth] - 1);
+	        graph1[edgeBag[y].ith][edgeBag[y].jth] = (graph1[edgeBag[y].ith][edgeBag[y].jth] - 1);		     
+	        graph1[edgeBag[z].ith][edgeBag[z].jth] = (graph1[edgeBag[z].ith][edgeBag[z].jth] - 1);
+	         
+
+          // STRONGLY CONNECTED
           for ( i = 0; i < N; i++) {
-          for (j = 0; j < N ; j++) {
-              if ( graph[i][j] >= 1 && (i != j)) {  // if there is Direct edge we are done
-                C5 = C5 && 1;
-               }
-              else if (i != j) {  // Else case
-                  unsigned int nub;  // Define max hop
-                  __CPROVER_assume( nub >= 1 && (nub <= N-2));
-                  unsigned int gPath[nub];
-                
-                  for (k = 0; k < nub; k++) {   // zdynamic N - 2 iteration
-                     gPath[k] = zeroTon(N-1);
-                   }
-                 
-                //  Make sure first edge is connected to i  and last edge is connected to j
-                  if( (graph[i][gPath[0]] >= 1) && (graph[gPath[nub - 1]][j] >= 1))   
-                     C5 = C5 && 1;
-                   else 
-                     C5 = 0;
+             for (j = 0; j < N ; j++) {
+                if ( (i != j) && ((graph1[i][j] >= 1) || graph1[j][i] >= 1 )) {  // if there is Direct edge we are done
+                    C5 = C5 && 1;
+                }
 
+                else if(i != j) {  // Else case
+                    unsigned int nub;  // Define max hop
+                    __CPROVER_assume( nub >= 1 && (nub <= N-2));
+                    unsigned int gPath[nub];
+                
+                    for (k = 0; k < nub; k++) {   // zdynamic N - 2 iteration
+                        gPath[k] = zeroTon(N-1);
+                     }
+                    //  Make sure first edge is connected to i  and last edge is connected to j
+                    if( ((graph1[i][gPath[0]] >= 1) || (graph1[gPath[0]][i] >= 1)) 
+                    && ((graph1[gPath[nub - 1]][j] >= 1) || (graph1[j][gPath[nub - 1]] >= 1))) {   
+                        C5 = C5 && 1;
+				    }
+                    else  {
+                        C5 = 0;
+                    }
                // rest Of the case is just checking edge btw consecutive array elements
                  for (l = 0; l < nub - 1; l++) {         //Dynamic N - 3  iteration
-                       if ( graph[gPath[l]][gPath[l+1]] >= 1 ) 
+                      if ( (graph1[gPath[l]][gPath[l+1]] >= 1 ) || (graph1[gPath[l+1]][gPath[l]] >= 1 )) { 
                                C5 = C5 && 1;
-                        else 
+					   }
+                      else {
                             C5 = 0;
-                     }
+					  }
+                 }
+                }   
             }
-        }
-    }
-  }
- }
+         }
+                 
+      }
+   }
 }
-}}
+
     
 	for (j = 0; j < len; j++) {   
          C0 = (C0 && (edgeBag[j].vSnare != 0));
@@ -452,10 +458,10 @@ for (y=0  ; y < E; y++) {
         }
     }
 
-    printf("\nThe value of : \n C0 = %d \n C1 : %d \n C2 : %d , C3 : %d \n,C4 : %d , C5 : %d",C0,C1,C2,C3,C4,C5);
+    printf("\nThe value of : \n  C1 : %d \n C2 : %d , C3 : %d C4 :%d  C5 : %d",C1,C2,C3,C4,C5);
     printf(" the value of mr.Ticks is %d and len was %d ", ticks , len);
-    //assert(0);
-  __CPROVER_assert(! ( C0 && C1 && C2 && C3) , "Graph that satisfy friendZoned model exists");  
+   //assert(0);
+  __CPROVER_assert( ((!C5) || (C1 && C2 && C3)) , "Graph that satisfy friendZoned model exists");  
  
 }
 

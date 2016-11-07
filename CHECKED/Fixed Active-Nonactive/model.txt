@@ -1,0 +1,8 @@
+Fig. 1A: just use a bunch of circles and arrows to make a schematic
+> traffic graph.
+> Fig. 1B: A schematic version of the Q-R / R-Q matrix.
+> Fig. 1C: E.g. of arbitrary boolean on node and edge.
+> Fig. 1D: E.g. of a non-trivial system with arbitrary boolean on edge.
+> Fig. 1E. E.g. of a non-trivial system with SNARE inhibition only on edge.
+> Fig. 1F: E.g. of a non-trivial system with arbitrary boolean on node and
+> SNARE inhibition on edge.
