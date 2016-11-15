@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 4
+#define M 5
 #define N 4
-#define snareLength 4
-#define dLen 8  // 2 * M  
-#define bigLen 256// 2 ^ (2*M) 
-#define len 7
+#define snareLength 5
+#define dLen 10  // 2 * M  
+#define bigLen 1024// 2 ^ (2*M) 
+#define len 8
 
 
 _Bool nondet_bool();
@@ -133,7 +133,7 @@ int  main()
                 }
                }
              __CPROVER_assume(calc >= 3);
-             if(calc < 5) {
+             if(calc <= 4) {
                  C4 = 1;
              }
          }
@@ -382,7 +382,7 @@ int  main()
     for  (i = 0; i < snareLength; i++){
         printf(" \n The rqfusionMatrix[%d] = %d ", i, rqfusionMatrix[i]);
     }
-
+ 
     for  (i = 0; i < N; i++){
         printf("T-Nodes[%d] = %d" , i , Tnodes[i]);
     }

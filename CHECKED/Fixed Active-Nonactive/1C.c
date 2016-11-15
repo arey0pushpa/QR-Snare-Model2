@@ -138,16 +138,33 @@ int  main()
          }
      */
   
-
+  //  Make assumption that each TNodes will be differnt.    
+    for  (i = 0; i < N; i++) {
+        for (j = 0; j < N; j++) {
+            if ( i != j) {
+              __CPROVER_assume(Tnodes[i] != Tnodes[j]);
+              __CPROVER_assume(Vnodes[i] != Vnodes[j]);
+           }
+        } 
+    }
+    /*
+    for(i = 0;i < len; i++) {
+		for (j = i + 1; j < len; j++) {
+			__CPROVER_assume(edgeWeight[i] != edgeWeight[j]);
+		}
+	}
     
 	for (j = 0; j < len; j++) {   
          C0 = (C0 && (edgeBag[j].vSnare != 0));
          C0 = (C0 && (edgeBag[j].tSnare != 0));
      }
 
+*/
     for ( i = 0; i < N; i++) {
               __CPROVER_assume(Vnodes[i] != 0);
     }
+    
+    
 
 
 // No.1 : Steady State Condition For VSnares	
