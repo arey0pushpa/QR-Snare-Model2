@@ -1,0 +1,96 @@
+----------------------------------------------------
+     1D: E.g. of a non-trivial system with arbitrary boolean on edge      N & S = 3 C        
+     
+     No inhibition mechanism on nodes. Only arb boolean function used as the mechanism on edge. 
+     For N = 3
+     
+  
+  graph={ { 0, 0, 2 }, { 2, 0, 0 }, { 0, 1, 0 } }
+
+  Vnodes={ 15, 13, 13 } ({ 1111, 1101, 1101 })
+
+
+  Tnodes={ 10, 14, 11 } ({ 1010, 1110, 1011 })
+
+  qrfusionMatrix={ 1, 8, 8, 4 } ({ 0001, 1000, 1000, 0100 })
+
+  rqfusionMatrix={ 2, 2, 2, 2 } ({ 0010, 0010, 0010, 0010 })
+
+
+         q0     q1    q2     q3     r0     r1     r2    r3 
+      ---------------------------------------- -------- ---
+   q0    0      0     0      0      1      0       0     0
+   
+   q1    0      0     0      0      0      0       0     1
+   
+   q2    0      0     0      0      0      0       0     1
+   
+   q3    0      0     0      0      0      0       1     0
+   
+   r0    0      1     0      0      0      0       0     0
+   
+   r1    0      1     0      0      0      0       0     0
+   
+   r2    0      1     0      0      0      0       0     0
+  
+   r3    0      1     0      0      0      0       0     0
+
+
+edegeInhib={ 738831546237221512927581162968250376737557888679298703725135135248, 
+    106959403163922651730348538828320123986789918759228027767483269140, 
+    6902485179943739053206673718981955795189291542265200748281833543696400, 
+    317583986501037025126184594195661008906989637655285870908856598801, 
+    
+    5708990770823839524241606358535564429042450448, 
+    2923003275002088203328308128914387391972689051924, 
+    26959946667150639794667015087019630673716372585073283562775158718480, 
+    452319750751280149527367609324718297360897597820395021163823774256490086416 }
+    
+
+The edge No.0 has this config : 
+ There is an edge between graph[0][2]
+ vSnare =  5 
+ tSnare = 2
+ combinedMask = 1 
+  combinedMask = 0 
+ counts = 1 
+ counts2 = 0 
+
+
+
+The edge No.1 has this config : 
+ There is an edge between graph[0][2]
+ vSnare =  9 
+ tSnare = 8
+ combinedMask = 1 
+  combinedMask = 0 
+ counts = 1 
+ counts2 = 0 
+
+The edge No.2 has this config : 
+ There is an edge between graph[1][0]
+ vSnare =  13 
+ tSnare = 2
+ combinedMask = 0 
+  combinedMask = 2 
+ counts = 0 
+ counts2 = 1 
+
+
+The edge No.3 has this config : 
+ There is an edge between graph[1][0]
+ vSnare =  5 
+ tSnare = 8
+ combinedMask = 0 
+  combinedMask = 2 
+ counts = 0 
+ counts2 = 1 
+
+The edge No.4 has this config : 
+ There is an edge between graph[2][1]
+ vSnare =  13 
+ tSnare = 10
+ combinedMask = 4 
+  combinedMask = 0 
+ counts = 1 
+ counts2 = 0 

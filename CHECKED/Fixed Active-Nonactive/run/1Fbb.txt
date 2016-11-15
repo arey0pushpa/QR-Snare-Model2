@@ -1,0 +1,133 @@
+   
+   1F: E.g. of a non-trivial system with arbitrary boolean on node 
+                   and SNARE inhibition on edge.                        N & S = 4 C
+
+** Driven by arbitary boolean function on nodes and 
+fusion table to be used to inhibit snares on edge. FOR N = 4
+
+ 
+
+  graph={ { 0, 1, 2, 1 }, { 1, 0, 0, 1 }, { 1, 0, 0, 1 }, { 1, 1, 0, 0 } }
+
+  Vnodes={ 31, 31, 29, 31 } ({ 11111, 11111, 11101, 11111 })
+
+
+  Tnodes={ 23, 21, 31, 29 } ({ 10111, 10101, 11111, 11101 })
+ 
+ 
+  qrfusionMatrix={ 24, 1, 16, 20, 18 } ({ 11000, 00001, 10000, 10100, 10010 })
+
+
+  rqfusionMatrix={ 3, 16, 9, 1, 4 } ({ 00011, 10000, 01001, 00001, 00100 })
+   
+
+  nodeInhib={ 29782528218300497291585698198020226474131853195116624658264769953138896815534, 
+    57896161206947466637576267859219134897064663558169641444244087895389284466688, 
+    2798861314281917665301631360889069384111737325943215223030461888941938180096, 
+    76052442140661123038538885586261479115011437414459897677201353106102985688096, 
+    9187632359557428037582554454978632349575002839914235633488648344017274535936, 
+    113081663605638479804986788745140174930381264252336285013856340526483181705, 
+    57953688880362242869729247370819707409731265297795937325226501336612284137984, 
+    7613344136964766450247092817940866203674602157745992184293510893356890193920 }
+
+
+The edge No.0 has this config : 
+ There is an edge between graph[0][1]
+ vSnare =  10 
+ tSnare = 1
+ combinedMask = 20 
+  combinedMask = 0 
+ counts = 1 
+ counts2 = 0 
+
+State 4879 file last.c line 370 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+The edge No.1 has this config : 
+ There is an edge between graph[0][2]
+ vSnare =  24 
+ tSnare = 4
+ combinedMask = 18 
+  combinedMask = 0 
+ counts = 1 
+ counts2 = 0 
+
+State 4884 file last.c line 370 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+The edge No.2 has this config : 
+ There is an edge between graph[0][2]
+ vSnare =  5 
+ tSnare = 19
+ combinedMask = 0 
+  combinedMask = 16 
+ counts = 0 
+ counts2 = 1 
+
+
+The edge No.3 has this config : 
+ There is an edge between graph[0][3]
+ vSnare =  4 
+ tSnare = 20
+ combinedMask = 0 
+  combinedMask = 9 
+ counts = 0 
+ counts2 = 1 
+
+
+The edge No.4 has this config : 
+ There is an edge between graph[1][0]
+ vSnare =  14 
+ tSnare = 4
+ combinedMask = 17 
+  combinedMask = 0 
+ counts = 2 
+ counts2 = 0 
+
+
+The edge No.5 has this config : 
+ There is an edge between graph[1][3]
+ vSnare =  6 
+ tSnare = 21
+ combinedMask = 0 
+  combinedMask = 9 
+ counts = 0 
+ counts2 = 1 
+
+
+The edge No.6 has this config : 
+ There is an edge between graph[2][0]
+ vSnare =  24 
+ tSnare = 22
+ combinedMask = 0 
+  combinedMask = 4 
+ counts = 0 
+ counts2 = 1 
+
+
+The edge No.7 has this config : 
+ There is an edge between graph[2][3]
+ vSnare =  13 
+ tSnare = 5
+ combinedMask = 24 
+  combinedMask = 0 
+ counts = 2 
+ counts2 = 0 
+
+The edge No.8 has this config : 
+ There is an edge between graph[3][0]
+ vSnare =  11 
+ tSnare = 21
+ combinedMask = 0 
+  combinedMask = 4 
+ counts = 0 
+ counts2 = 1 
+
+The edge No.9 has this config : 
+ There is an edge between graph[3][1]
+ vSnare =  12 
+ tSnare = 21
+ combinedMask = 0 
+  combinedMask = 3 
+ counts = 0 
+ counts2 = 1 

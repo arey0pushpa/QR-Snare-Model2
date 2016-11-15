@@ -1,0 +1,3742 @@
+CBMC version 5.4 64-bit x86_64 linux
+Parsing 1C.c
+Converting
+Type-checking 1C
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 file 1C.c line 74 function main thread 0
+Unwinding loop main.0 iteration 2 file 1C.c line 74 function main thread 0
+Unwinding loop main.0 iteration 3 file 1C.c line 74 function main thread 0
+Unwinding loop main.1 iteration 1 file 1C.c line 73 function main thread 0
+Unwinding loop main.0 iteration 1 file 1C.c line 74 function main thread 0
+Unwinding loop main.0 iteration 2 file 1C.c line 74 function main thread 0
+Unwinding loop main.0 iteration 3 file 1C.c line 74 function main thread 0
+Unwinding loop main.1 iteration 2 file 1C.c line 73 function main thread 0
+Unwinding loop main.0 iteration 1 file 1C.c line 74 function main thread 0
+Unwinding loop main.0 iteration 2 file 1C.c line 74 function main thread 0
+Unwinding loop main.0 iteration 3 file 1C.c line 74 function main thread 0
+Unwinding loop main.1 iteration 3 file 1C.c line 73 function main thread 0
+Unwinding loop main.2 iteration 1 file 1C.c line 94 function main thread 0
+Unwinding loop main.2 iteration 2 file 1C.c line 94 function main thread 0
+Unwinding loop main.2 iteration 3 file 1C.c line 94 function main thread 0
+Unwinding loop main.3 iteration 1 file 1C.c line 93 function main thread 0
+Unwinding loop main.2 iteration 1 file 1C.c line 94 function main thread 0
+Unwinding loop main.2 iteration 2 file 1C.c line 94 function main thread 0
+Unwinding loop main.2 iteration 3 file 1C.c line 94 function main thread 0
+Unwinding loop main.3 iteration 2 file 1C.c line 93 function main thread 0
+Unwinding loop main.2 iteration 1 file 1C.c line 94 function main thread 0
+Unwinding loop main.2 iteration 2 file 1C.c line 94 function main thread 0
+Unwinding loop main.2 iteration 3 file 1C.c line 94 function main thread 0
+Unwinding loop main.3 iteration 3 file 1C.c line 93 function main thread 0
+Unwinding loop main.4 iteration 1 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 2 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 3 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 4 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 5 file 1C.c line 129 function main thread 0
+Unwinding loop main.5 iteration 1 file 1C.c line 127 function main thread 0
+Unwinding loop main.4 iteration 1 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 2 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 3 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 4 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 5 file 1C.c line 129 function main thread 0
+Unwinding loop main.5 iteration 2 file 1C.c line 127 function main thread 0
+Unwinding loop main.4 iteration 1 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 2 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 3 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 4 file 1C.c line 129 function main thread 0
+Unwinding loop main.4 iteration 5 file 1C.c line 129 function main thread 0
+Unwinding loop main.5 iteration 3 file 1C.c line 127 function main thread 0
+Unwinding loop main.6 iteration 1 file 1C.c line 153 function main thread 0
+Unwinding loop main.6 iteration 2 file 1C.c line 153 function main thread 0
+Unwinding loop main.6 iteration 3 file 1C.c line 153 function main thread 0
+Unwinding loop main.6 iteration 4 file 1C.c line 153 function main thread 0
+Unwinding loop main.6 iteration 5 file 1C.c line 153 function main thread 0
+Unwinding loop main.7 iteration 1 file 1C.c line 159 function main thread 0
+Unwinding loop main.7 iteration 2 file 1C.c line 159 function main thread 0
+Unwinding loop main.7 iteration 3 file 1C.c line 159 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 1 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 2 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 3 file 1C.c line 168 function main thread 0
+Unwinding loop main.11 iteration 1 file 1C.c line 167 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 1 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 2 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 3 file 1C.c line 168 function main thread 0
+Unwinding loop main.11 iteration 2 file 1C.c line 167 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 1 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 2 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 3 file 1C.c line 168 function main thread 0
+Unwinding loop main.11 iteration 3 file 1C.c line 167 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 1 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 2 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 3 file 1C.c line 168 function main thread 0
+Unwinding loop main.11 iteration 4 file 1C.c line 167 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 1 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 2 file 1C.c line 168 function main thread 0
+Unwinding loop main.8 iteration 1 (2 max) file 1C.c line 186 function main thread 0
+Not unwinding loop main.8 iteration 2 (2 max) file 1C.c line 186 function main thread 0
+Unwinding loop main.9 iteration 1 (2 max) file 1C.c line 208 function main thread 0
+Not unwinding loop main.9 iteration 2 (2 max) file 1C.c line 208 function main thread 0
+Unwinding loop main.10 iteration 3 file 1C.c line 168 function main thread 0
+Unwinding loop main.11 iteration 5 file 1C.c line 167 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 1 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 2 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 3 file 1C.c line 231 function main thread 0
+Unwinding loop main.15 iteration 1 file 1C.c line 230 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 1 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 2 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 3 file 1C.c line 231 function main thread 0
+Unwinding loop main.15 iteration 2 file 1C.c line 230 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 1 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 2 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 3 file 1C.c line 231 function main thread 0
+Unwinding loop main.15 iteration 3 file 1C.c line 230 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 1 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 2 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 3 file 1C.c line 231 function main thread 0
+Unwinding loop main.15 iteration 4 file 1C.c line 230 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 1 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 2 file 1C.c line 231 function main thread 0
+Unwinding loop main.12 iteration 1 (2 max) file 1C.c line 250 function main thread 0
+Not unwinding loop main.12 iteration 2 (2 max) file 1C.c line 250 function main thread 0
+Unwinding loop main.13 iteration 1 (2 max) file 1C.c line 270 function main thread 0
+Not unwinding loop main.13 iteration 2 (2 max) file 1C.c line 270 function main thread 0
+Unwinding loop main.14 iteration 3 file 1C.c line 231 function main thread 0
+Unwinding loop main.15 iteration 5 file 1C.c line 230 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 1 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 2 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 3 file 1C.c line 306 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 1 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 2 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 3 file 1C.c line 357 function main thread 0
+Unwinding loop main.21 iteration 1 file 1C.c line 289 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 1 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 2 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 3 file 1C.c line 306 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 1 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 2 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 3 file 1C.c line 357 function main thread 0
+Unwinding loop main.21 iteration 2 file 1C.c line 289 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 1 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 2 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 3 file 1C.c line 306 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 1 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 2 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 3 file 1C.c line 357 function main thread 0
+Unwinding loop main.21 iteration 3 file 1C.c line 289 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 1 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 2 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 3 file 1C.c line 306 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 1 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 2 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 3 file 1C.c line 357 function main thread 0
+Unwinding loop main.21 iteration 4 file 1C.c line 289 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 1 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 2 file 1C.c line 306 function main thread 0
+Unwinding loop main.16 iteration 1 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 2 file 1C.c line 319 function main thread 0
+Unwinding loop main.16 iteration 3 file 1C.c line 319 function main thread 0
+Unwinding loop main.17 iteration 1 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 2 file 1C.c line 339 function main thread 0
+Unwinding loop main.17 iteration 3 file 1C.c line 339 function main thread 0
+Unwinding loop main.18 iteration 3 file 1C.c line 306 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 1 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 2 file 1C.c line 357 function main thread 0
+Unwinding loop main.19 iteration 1 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 2 file 1C.c line 361 function main thread 0
+Unwinding loop main.19 iteration 3 file 1C.c line 361 function main thread 0
+Unwinding loop main.20 iteration 3 file 1C.c line 357 function main thread 0
+Unwinding loop main.21 iteration 5 file 1C.c line 289 function main thread 0
+Unwinding loop main.22 iteration 1 file 1C.c line 386 function main thread 0
+Unwinding loop main.22 iteration 2 file 1C.c line 386 function main thread 0
+Unwinding loop main.22 iteration 3 file 1C.c line 386 function main thread 0
+Unwinding loop main.22 iteration 4 file 1C.c line 386 function main thread 0
+Unwinding loop main.22 iteration 5 file 1C.c line 386 function main thread 0
+Unwinding loop main.23 iteration 1 file 1C.c line 394 function main thread 0
+Unwinding loop main.23 iteration 2 file 1C.c line 394 function main thread 0
+Unwinding loop main.23 iteration 3 file 1C.c line 394 function main thread 0
+Unwinding loop main.24 iteration 1 file 1C.c line 398 function main thread 0
+Unwinding loop main.24 iteration 2 file 1C.c line 398 function main thread 0
+Unwinding loop main.24 iteration 3 file 1C.c line 398 function main thread 0
+Unwinding loop main.25 iteration 1 file 1C.c line 402 function main thread 0
+Unwinding loop main.25 iteration 2 file 1C.c line 402 function main thread 0
+Unwinding loop main.25 iteration 3 file 1C.c line 402 function main thread 0
+Unwinding loop main.26 iteration 1 file 1C.c line 405 function main thread 0
+Unwinding loop main.26 iteration 2 file 1C.c line 405 function main thread 0
+Unwinding loop main.26 iteration 3 file 1C.c line 405 function main thread 0
+Unwinding loop main.27 iteration 1 file 1C.c line 409 function main thread 0
+Unwinding loop main.27 iteration 2 file 1C.c line 409 function main thread 0
+Unwinding loop main.27 iteration 3 file 1C.c line 409 function main thread 0
+Unwinding loop main.27 iteration 4 file 1C.c line 409 function main thread 0
+Unwinding loop main.27 iteration 5 file 1C.c line 409 function main thread 0
+Unwinding loop main.27 iteration 6 file 1C.c line 409 function main thread 0
+Unwinding loop main.28 iteration 1 file 1C.c line 416 function main thread 0
+Unwinding loop main.28 iteration 2 file 1C.c line 416 function main thread 0
+Unwinding loop main.28 iteration 3 file 1C.c line 416 function main thread 0
+Unwinding loop main.29 iteration 1 file 1C.c line 415 function main thread 0
+Unwinding loop main.28 iteration 1 file 1C.c line 416 function main thread 0
+Unwinding loop main.28 iteration 2 file 1C.c line 416 function main thread 0
+Unwinding loop main.28 iteration 3 file 1C.c line 416 function main thread 0
+Unwinding loop main.29 iteration 2 file 1C.c line 415 function main thread 0
+Unwinding loop main.28 iteration 1 file 1C.c line 416 function main thread 0
+Unwinding loop main.28 iteration 2 file 1C.c line 416 function main thread 0
+Unwinding loop main.28 iteration 3 file 1C.c line 416 function main thread 0
+Unwinding loop main.29 iteration 3 file 1C.c line 415 function main thread 0
+size of program expression: 9930 steps
+simple slicing removed 3 assignments
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+429543 variables, 1554162 clauses
+SAT checker: instance is SATISFIABLE
+Runtime decision procedure: 4.66s
+Building error trace
+
+Counterexample:
+
+State 18 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  pos=0 (00000000000000000000000000000000)
+
+State 19 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 20 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 21 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+State 22 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 23 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 24 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  w=0 (00000000000000000000000000000000)
+
+State 25 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 26 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  y=0 (00000000000000000000000000000000)
+
+State 27 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  iVal=0 (00000000000000000000000000000000)
+
+State 28 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  jVal=0 (00000000000000000000000000000000)
+
+State 29 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  g=0 (00000000000000000000000000000000)
+
+State 30 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  g0=0 (00000000000000000000000000000000)
+
+State 31 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  gl=0 (00000000000000000000000000000000)
+
+State 32 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  lastg=0 (00000000000000000000000000000000)
+
+State 33 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  ng=0 (00000000000000000000000000000000)
+
+State 34 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  nl=0 (00000000000000000000000000000000)
+
+State 35 file 1C.c line 55 function main thread 0
+----------------------------------------------------
+  nl2=0 (00000000000000000000000000000000)
+
+State 36 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  edgePos=0 (00000000000000000000000000000000)
+
+State 37 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  edgePos=0 (00000000000000000000000000000000)
+
+State 38 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  bagNo=0 (00000000000000000000000000000000)
+
+State 39 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  bagNo=0 (00000000000000000000000000000000)
+
+State 40 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  colorNode=0 (00000000000000000000000000000000)
+
+State 41 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  colorNode=0 (00000000000000000000000000000000)
+
+State 42 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  minColor=0 (00000000000000000000000000000000)
+
+State 43 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  cPos=0 (00000000000000000000000000000000)
+
+State 44 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  cPos=0 (00000000000000000000000000000000)
+
+State 45 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  tComp=0 (00000000000000000000000000000000)
+
+State 46 file 1C.c line 56 function main thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 47 file 1C.c line 57 function main thread 0
+----------------------------------------------------
+  ticks=0 (00000000000000000000000000000000)
+
+State 48 file 1C.c line 57 function main thread 0
+----------------------------------------------------
+  ticks2=0 (00000000000000000000000000000000)
+
+State 49 file 1C.c line 57 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 50 file 1C.c line 57 function main thread 0
+----------------------------------------------------
+  vali=0 (00000000000000000000000000000000)
+
+State 51 file 1C.c line 57 function main thread 0
+----------------------------------------------------
+  calc=0 (00000000000000000000000000000000)
+
+State 52 file 1C.c line 57 function main thread 0
+----------------------------------------------------
+  edgeCount=0 (00000000000000000000000000000000)
+
+State 53 file 1C.c line 57 function main thread 0
+----------------------------------------------------
+  edgeCount=0 (00000000000000000000000000000000)
+
+State 54 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  Ck=FALSE (00000000)
+
+State 55 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  Ck=FALSE (00000000)
+
+State 56 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  Cl=FALSE (00000000)
+
+State 57 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  Cl=FALSE (00000000)
+
+State 58 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  Cf=FALSE (00000000)
+
+State 59 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  Cf=TRUE (00000001)
+
+State 60 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C0=FALSE (00000000)
+
+State 61 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C0=TRUE (00000001)
+
+State 62 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C1=FALSE (00000000)
+
+State 63 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 64 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C2=FALSE (00000000)
+
+State 65 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C2=TRUE (00000001)
+
+State 66 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C3=FALSE (00000000)
+
+State 67 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C3=TRUE (00000001)
+
+State 68 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C4=FALSE (00000000)
+
+State 69 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C5=FALSE (00000000)
+
+State 70 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C6=FALSE (00000000)
+
+State 71 file 1C.c line 58 function main thread 0
+----------------------------------------------------
+  C7=FALSE (00000000)
+
+State 72 file 1C.c line 60 function main thread 0
+----------------------------------------------------
+  b1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 73 file 1C.c line 60 function main thread 0
+----------------------------------------------------
+  b1=1 (0000000000000000000000000000000000000000000000000000000000000001)
+
+State 74 file 1C.c line 60 function main thread 0
+----------------------------------------------------
+  b0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 75 file 1C.c line 60 function main thread 0
+----------------------------------------------------
+  b0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 76 file 1C.c line 60 function main thread 0
+----------------------------------------------------
+  vf=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 77 file 1C.c line 60 function main thread 0
+----------------------------------------------------
+  vff=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 78 file 1C.c line 60 function main thread 0
+----------------------------------------------------
+  edegeInhib={ 5981096964497997826, 15511296736224153668, 10019981555647119377, 815737718298383104, 6132794384925655056, 9224218880019333138 } ({ 0101001100000001001000000000000000000000000100100000000000000010, 1101011101000011001100100011001100000000010100010001000001000100, 1000101100001110001000000010001100000000010100000000000000010001, 0000101101010010000101010010001000000001000100000001001100000000, 0101010100011100000100000000000000001010000000010000000000010000, 1000000000000011000000100011001100001010000000010000000000010010 })
+
+State 79 file 1C.c line 60 function main thread 0
+----------------------------------------------------
+  nodeInhib={ 144818875534409986, 13898320106070475010, 6917599396435591426, 35184422420737, 6642527975933935873, 9835864128797802753 } ({ 0000001000000010100000000000000000000001000000000000000100000010, 1100000011100000110000001000000000000001000000000000000100000010, 0110000000000000010000000000000000000011000000000000000100000010, 0000000000000000001000000000000000000011000000000000000100000001, 0101110000101111000000000000000000100000001000110000000100000001, 1000100010000000000000100101000000000000000000000000000100000001 })
+
+State 80 file 1C.c line 61 function main thread 0
+----------------------------------------------------
+  bv=0 (000000)
+
+State 81 file 1C.c line 61 function main thread 0
+----------------------------------------------------
+  bvv=0 (000000)
+
+State 82 file 1C.c line 63 function main thread 0
+----------------------------------------------------
+  Vnodes={ 7, 7, 7 } ({ 111, 111, 111 })
+
+State 83 file 1C.c line 63 function main thread 0
+----------------------------------------------------
+  Tnodes={ 5, 1, 7 } ({ 101, 001, 111 })
+
+State 84 file 1C.c line 64 function main thread 0
+----------------------------------------------------
+  fareTotal=0 (000)
+
+State 85 file 1C.c line 64 function main thread 0
+----------------------------------------------------
+  inTotal=0 (000)
+
+State 86 file 1C.c line 64 function main thread 0
+----------------------------------------------------
+  outTotal=0 (000)
+
+State 87 file 1C.c line 64 function main thread 0
+----------------------------------------------------
+  outVSnareTotal=0 (000)
+
+State 88 file 1C.c line 64 function main thread 0
+----------------------------------------------------
+  inVSnareTotal=0 (000)
+
+State 89 file 1C.c line 64 function main thread 0
+----------------------------------------------------
+  outTSnareTotal=0 (000)
+
+State 90 file 1C.c line 64 function main thread 0
+----------------------------------------------------
+  inTSnareTotal=0 (000)
+
+State 91 file 1C.c line 66 function main thread 0
+----------------------------------------------------
+  total=0 (000)
+
+State 92 file 1C.c line 66 function main thread 0
+----------------------------------------------------
+  cond2Total=0 (000)
+
+State 93 file 1C.c line 66 function main thread 0
+----------------------------------------------------
+  cond2fareTotal=0 (000)
+
+State 94 file 1C.c line 66 function main thread 0
+----------------------------------------------------
+  centTotal=0 (000)
+
+State 95 file 1C.c line 66 function main thread 0
+----------------------------------------------------
+  centTotal2=0 (000)
+
+State 96 file 1C.c line 66 function main thread 0
+----------------------------------------------------
+  placeHolder=0 (000)
+
+State 97 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  v=0 (000)
+
+State 98 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  vl=0 (000)
+
+State 99 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  vl2=0 (000)
+
+State 100 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  t=0 (000)
+
+State 101 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  f=0 (000)
+
+State 102 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  h=0 (000)
+
+State 103 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  v2=0 (000)
+
+State 104 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  lastv=0 (000)
+
+State 105 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  lastv2=0 (000)
+
+State 106 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  nv=0 (000)
+
+State 107 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  nv2=0 (000)
+
+State 108 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  v0=0 (000)
+
+State 109 file 1C.c line 67 function main thread 0
+----------------------------------------------------
+  v02=0 (000)
+
+State 110 file 1C.c line 68 function main thread 0
+----------------------------------------------------
+  Tedge={ { 1, 4, 0 }, { 0, 0, 2 }, { 0, 0, 7 } } ({ { 001, 100, 000 }, { 000, 000, 010 }, { 000, 000, 111 } })
+
+State 111 file 1C.c line 68 function main thread 0
+----------------------------------------------------
+  Vedge={ { 5, 4, 0 }, { 0, 0, 0 }, { 0, 0, 5 } } ({ { 101, 100, 000 }, { 000, 000, 000 }, { 000, 000, 101 } })
+
+State 112 file 1C.c line 68 function main thread 0
+----------------------------------------------------
+  Vedge2={ { 0, 0, 5 }, { 0, 0, 1 }, { 0, 0, 1 } } ({ { 000, 000, 101 }, { 000, 000, 001 }, { 000, 000, 001 } })
+
+State 113 file 1C.c line 68 function main thread 0
+----------------------------------------------------
+  Tedge2={ { 2, 0, 6 }, { 6, 1, 6 }, { 0, 0, 7 } } ({ { 010, 000, 110 }, { 110, 001, 110 }, { 000, 000, 111 } })
+
+State 114 file 1C.c line 68 function main thread 0
+----------------------------------------------------
+  fComp=0 (000)
+
+State 115 file 1C.c line 68 function main thread 0
+----------------------------------------------------
+  bComp=0 (000)
+
+State 116 file 1C.c line 69 function main thread 0
+----------------------------------------------------
+  qrfusionMatrix={ 1, 6, 4 } ({ 001, 110, 100 })
+
+State 117 file 1C.c line 69 function main thread 0
+----------------------------------------------------
+  rqfusionMatrix={ 7, 4, 3 } ({ 111, 100, 011 })
+
+State 118 file 1C.c line 71 function main thread 0
+----------------------------------------------------
+  graph={ { 0, 0, 1 }, { 1, 0, 0 }, { 1, 2, 0 } } ({ { 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000001 }, { 00000000000000000000000000000001, 00000000000000000000000000000000, 00000000000000000000000000000000 }, { 00000000000000000000000000000001, 00000000000000000000000000000010, 00000000000000000000000000000000 } })
+
+State 119 file 1C.c line 73 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 121 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 125 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 133 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 139 file 1C.c line 78 function main thread 0
+----------------------------------------------------
+  edgeCount=1 (00000000000000000000000000000001)
+
+State 142 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 145 file 1C.c line 73 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 148 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 153 file 1C.c line 78 function main thread 0
+----------------------------------------------------
+  edgeCount=2 (00000000000000000000000000000010)
+
+State 156 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 161 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 169 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 172 file 1C.c line 73 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 175 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 180 file 1C.c line 78 function main thread 0
+----------------------------------------------------
+  edgeCount=3 (00000000000000000000000000000011)
+
+State 183 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 190 file 1C.c line 81 function main thread 0
+----------------------------------------------------
+  edgeCount=5 (00000000000000000000000000000101)
+
+State 192 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 197 file 1C.c line 74 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 200 file 1C.c line 73 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 204 file 1C.c line 91 function main thread 0
+----------------------------------------------------
+  edgeBag={ { .ith=0, .jth=1, .count=0, .count2=0, .edgeWeight=0, .vSnare=5,
+    .tSnare=5, .combinedMask=0, .combinedMask2=0,
+    .$pad0=0 }, 
+    { .ith=0, .jth=1, .count=0, .count2=0, .edgeWeight=0, .vSnare=5,
+    .tSnare=1, .combinedMask=0, .combinedMask2=0,
+    .$pad0=0 }, 
+    { .ith=0, .jth=2, .count=0, .count2=0, .edgeWeight=0, .vSnare=4,
+    .tSnare=5, .combinedMask=0, .combinedMask2=0,
+    .$pad0=0 }, 
+    { .ith=1, .jth=0, .count=0, .count2=0, .edgeWeight=0, .vSnare=5,
+    .tSnare=0, .combinedMask=0, .combinedMask2=0,
+    .$pad0=0 }, 
+    { .ith=1, .jth=2, .count=0, .count2=0, .edgeWeight=0, .vSnare=1,
+    .tSnare=1, .combinedMask=0, .combinedMask2=0,
+    .$pad0=0 } } ({ { 00000000000000000000000000000000, 00000000000000000000000000000001, 00000000000000000000000000000000, 00000000000000000000000000000000, 000, 101, 101, 000, 000, 000000000000000000000000 }, { 00000000000000000000000000000000, 00000000000000000000000000000001, 00000000000000000000000000000000, 00000000000000000000000000000000, 000, 101, 001, 000, 000, 000000000000000000000000 }, { 00000000000000000000000000000000, 00000000000000000000000000000010, 00000000000000000000000000000000, 00000000000000000000000000000000, 000, 100, 101, 000, 000, 000000000000000000000000 }, { 00000000000000000000000000000001, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 000, 101, 000, 000, 000, 000000000000000000000000 }, { 00000000000000000000000000000001, 00000000000000000000000000000010, 00000000000000000000000000000000, 00000000000000000000000000000000, 000, 001, 001, 000, 000, 000000000000000000000000 } })
+
+State 205 file 1C.c line 93 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 207 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 214 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 222 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 230 file 1C.c line 96 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].ith=0 (00000000000000000000000000000000)
+
+State 231 file 1C.c line 97 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].jth=2 (00000000000000000000000000000010)
+
+State 234 file 1C.c line 104 function main thread 0
+----------------------------------------------------
+  Vedge[0][2]=5 (101)
+
+State 235 file 1C.c line 105 function main thread 0
+----------------------------------------------------
+  Tedge[0][2]=5 (101)
+
+State 236 file 1C.c line 106 function main thread 0
+----------------------------------------------------
+  edgePos=1 (00000000000000000000000000000001)
+
+State 238 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 241 file 1C.c line 93 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 244 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 251 file 1C.c line 96 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].ith=1 (00000000000000000000000000000001)
+
+State 252 file 1C.c line 97 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].jth=0 (00000000000000000000000000000000)
+
+State 255 file 1C.c line 104 function main thread 0
+----------------------------------------------------
+  Vedge[1][0]=5 (101)
+
+State 256 file 1C.c line 105 function main thread 0
+----------------------------------------------------
+  Tedge[1][0]=1 (001)
+
+State 257 file 1C.c line 106 function main thread 0
+----------------------------------------------------
+  edgePos=2 (00000000000000000000000000000010)
+
+State 259 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 267 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 275 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 278 file 1C.c line 93 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 281 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 288 file 1C.c line 96 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].ith=2 (00000000000000000000000000000010)
+
+State 289 file 1C.c line 97 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].jth=0 (00000000000000000000000000000000)
+
+State 292 file 1C.c line 104 function main thread 0
+----------------------------------------------------
+  Vedge[2][0]=4 (100)
+
+State 293 file 1C.c line 105 function main thread 0
+----------------------------------------------------
+  Tedge[2][0]=5 (101)
+
+State 294 file 1C.c line 106 function main thread 0
+----------------------------------------------------
+  edgePos=3 (00000000000000000000000000000011)
+
+State 296 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 303 file 1C.c line 96 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].ith=2 (00000000000000000000000000000010)
+
+State 304 file 1C.c line 97 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].jth=1 (00000000000000000000000000000001)
+
+State 307 file 1C.c line 104 function main thread 0
+----------------------------------------------------
+  Vedge[2][1]=5 (101)
+
+State 308 file 1C.c line 105 function main thread 0
+----------------------------------------------------
+  Tedge[2][1]=0 (000)
+
+State 309 file 1C.c line 106 function main thread 0
+----------------------------------------------------
+  edgePos=4 (00000000000000000000000000000100)
+
+State 311 file 1C.c line 110 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].ith=2 (00000000000000000000000000000010)
+
+State 312 file 1C.c line 111 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)edgePos!0@1].jth=1 (00000000000000000000000000000001)
+
+State 315 file 1C.c line 117 function main thread 0
+----------------------------------------------------
+  Vedge2[2][1]=1 (001)
+
+State 316 file 1C.c line 118 function main thread 0
+----------------------------------------------------
+  Tedge2[2][1]=1 (001)
+
+State 317 file 1C.c line 119 function main thread 0
+----------------------------------------------------
+  edgePos=5 (00000000000000000000000000000101)
+
+State 318 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 326 file 1C.c line 94 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 329 file 1C.c line 93 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 332 file 1C.c line 126 function main thread 0
+----------------------------------------------------
+  C4=FALSE (00000000)
+
+State 333 file 1C.c line 127 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 335 file 1C.c line 128 function main thread 0
+----------------------------------------------------
+  calc=0 (00000000000000000000000000000000)
+
+State 336 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 343 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=1 (00000000000000000000000000000001)
+
+State 344 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 351 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=2 (00000000000000000000000000000010)
+
+State 352 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 359 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=3 (00000000000000000000000000000011)
+
+State 360 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 367 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=4 (00000000000000000000000000000100)
+
+State 374 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=5 (00000000000000000000000000000101)
+
+State 379 file 1C.c line 136 function main thread 0
+----------------------------------------------------
+  C4=TRUE (00000001)
+
+State 380 file 1C.c line 127 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 383 file 1C.c line 128 function main thread 0
+----------------------------------------------------
+  calc=0 (00000000000000000000000000000000)
+
+State 384 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 390 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 398 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=1 (00000000000000000000000000000001)
+
+State 399 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 406 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 413 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=2 (00000000000000000000000000000010)
+
+State 414 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=4 (00000000000000000000000000000100)
+
+State 421 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=3 (00000000000000000000000000000011)
+
+State 422 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=5 (00000000000000000000000000000101)
+
+State 427 file 1C.c line 136 function main thread 0
+----------------------------------------------------
+  C4=TRUE (00000001)
+
+State 428 file 1C.c line 127 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 431 file 1C.c line 128 function main thread 0
+----------------------------------------------------
+  calc=0 (00000000000000000000000000000000)
+
+State 432 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 438 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=1 (00000000000000000000000000000001)
+
+State 439 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 446 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 454 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=2 (00000000000000000000000000000010)
+
+State 455 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 463 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=3 (00000000000000000000000000000011)
+
+State 464 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=4 (00000000000000000000000000000100)
+
+State 472 file 1C.c line 131 function main thread 0
+----------------------------------------------------
+  calc=4 (00000000000000000000000000000100)
+
+State 473 file 1C.c line 129 function main thread 0
+----------------------------------------------------
+  j=5 (00000000000000000000000000000101)
+
+State 478 file 1C.c line 127 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 481 file 1C.c line 153 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 487 file 1C.c line 154 function main thread 0
+----------------------------------------------------
+  C0=TRUE (00000001)
+
+State 492 file 1C.c line 155 function main thread 0
+----------------------------------------------------
+  C0=TRUE (00000001)
+
+State 493 file 1C.c line 153 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 500 file 1C.c line 154 function main thread 0
+----------------------------------------------------
+  C0=TRUE (00000001)
+
+State 505 file 1C.c line 155 function main thread 0
+----------------------------------------------------
+  C0=TRUE (00000001)
+
+State 506 file 1C.c line 153 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 513 file 1C.c line 154 function main thread 0
+----------------------------------------------------
+  C0=TRUE (00000001)
+
+State 518 file 1C.c line 155 function main thread 0
+----------------------------------------------------
+  C0=TRUE (00000001)
+
+State 519 file 1C.c line 153 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 526 file 1C.c line 154 function main thread 0
+----------------------------------------------------
+  C0=TRUE (00000001)
+
+State 531 file 1C.c line 155 function main thread 0
+----------------------------------------------------
+  C0=FALSE (00000000)
+
+State 532 file 1C.c line 153 function main thread 0
+----------------------------------------------------
+  j=4 (00000000000000000000000000000100)
+
+State 538 file 1C.c line 154 function main thread 0
+----------------------------------------------------
+  C0=FALSE (00000000)
+
+State 542 file 1C.c line 155 function main thread 0
+----------------------------------------------------
+  C0=FALSE (00000000)
+
+State 543 file 1C.c line 153 function main thread 0
+----------------------------------------------------
+  j=5 (00000000000000000000000000000101)
+
+State 546 file 1C.c line 159 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 549 file 1C.c line 159 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 553 file 1C.c line 159 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 557 file 1C.c line 159 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 560 file 1C.c line 167 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 562 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 565 file 1C.c line 170 function main thread 0
+----------------------------------------------------
+  vali=0 (00000000000000000000000000000000)
+
+State 566 file 1C.c line 171 function main thread 0
+----------------------------------------------------
+  valj=2 (00000000000000000000000000000010)
+
+State 578 file 1C.c line 181 function main thread 0
+----------------------------------------------------
+  big=1 (00000000000000000000000000000001)
+
+State 582 file 1C.c line 183 function main thread 0
+----------------------------------------------------
+  path=(assignment removed)
+
+State 583 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 587 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  n=2 (00000000000000000000000000000010)
+
+State 588 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 589 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=1 (00000000000000000000000000000001)
+
+State 594 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  path[0]=irep("(\"nil\")")[0] (?)
+
+State 595 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 598 file 1C.c line 190 function main thread 0
+----------------------------------------------------
+  g0=2 (00000000000000000000000000000010)
+
+State 599 file 1C.c line 191 function main thread 0
+----------------------------------------------------
+  v0=5 (101)
+
+State 600 file 1C.c line 192 function main thread 0
+----------------------------------------------------
+  v2=1 (001)
+
+State 601 file 1C.c line 194 function main thread 0
+----------------------------------------------------
+  gl=1 (00000000000000000000000000000001)
+
+State 602 file 1C.c line 195 function main thread 0
+----------------------------------------------------
+  vl=5 (101)
+
+State 603 file 1C.c line 196 function main thread 0
+----------------------------------------------------
+  vl2=0 (000)
+
+State 605 file 1C.c line 199 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 608 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 612 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 616 file 1C.c line 170 function main thread 0
+----------------------------------------------------
+  vali=0 (00000000000000000000000000000000)
+
+State 617 file 1C.c line 171 function main thread 0
+----------------------------------------------------
+  valj=2 (00000000000000000000000000000010)
+
+State 627 file 1C.c line 174 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 629 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 632 file 1C.c line 167 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 635 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 638 file 1C.c line 170 function main thread 0
+----------------------------------------------------
+  vali=1 (00000000000000000000000000000001)
+
+State 639 file 1C.c line 171 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 650 file 1C.c line 181 function main thread 0
+----------------------------------------------------
+  big=1 (00000000000000000000000000000001)
+
+State 654 file 1C.c line 183 function main thread 0
+----------------------------------------------------
+  path=(assignment removed)
+
+State 655 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 659 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  n=2 (00000000000000000000000000000010)
+
+State 660 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 661 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=2 (00000000000000000000000000000010)
+
+State 666 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  path[0]=irep("(\"nil\")")[0] (?)
+
+State 667 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 670 file 1C.c line 190 function main thread 0
+----------------------------------------------------
+  g0=1 (00000000000000000000000000000001)
+
+State 671 file 1C.c line 191 function main thread 0
+----------------------------------------------------
+  v0=5 (101)
+
+State 672 file 1C.c line 192 function main thread 0
+----------------------------------------------------
+  v2=5 (101)
+
+State 673 file 1C.c line 194 function main thread 0
+----------------------------------------------------
+  gl=2 (00000000000000000000000000000010)
+
+State 674 file 1C.c line 195 function main thread 0
+----------------------------------------------------
+  vl=5 (101)
+
+State 675 file 1C.c line 196 function main thread 0
+----------------------------------------------------
+  vl2=1 (001)
+
+State 677 file 1C.c line 199 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 680 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 684 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 688 file 1C.c line 170 function main thread 0
+----------------------------------------------------
+  vali=1 (00000000000000000000000000000001)
+
+State 689 file 1C.c line 171 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 700 file 1C.c line 181 function main thread 0
+----------------------------------------------------
+  big=1 (00000000000000000000000000000001)
+
+State 704 file 1C.c line 183 function main thread 0
+----------------------------------------------------
+  path=(assignment removed)
+
+State 705 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 709 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  n=2 (00000000000000000000000000000010)
+
+State 710 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 711 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=2 (00000000000000000000000000000010)
+
+State 716 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  path[0]=irep("(\"nil\")")[0] (?)
+
+State 717 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 720 file 1C.c line 190 function main thread 0
+----------------------------------------------------
+  g0=1 (00000000000000000000000000000001)
+
+State 721 file 1C.c line 191 function main thread 0
+----------------------------------------------------
+  v0=5 (101)
+
+State 722 file 1C.c line 192 function main thread 0
+----------------------------------------------------
+  v2=5 (101)
+
+State 723 file 1C.c line 194 function main thread 0
+----------------------------------------------------
+  gl=2 (00000000000000000000000000000010)
+
+State 724 file 1C.c line 195 function main thread 0
+----------------------------------------------------
+  vl=5 (101)
+
+State 725 file 1C.c line 196 function main thread 0
+----------------------------------------------------
+  vl2=1 (001)
+
+State 727 file 1C.c line 199 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 730 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 733 file 1C.c line 167 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 736 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 739 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 743 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 747 file 1C.c line 170 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 748 file 1C.c line 171 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 758 file 1C.c line 174 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 760 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 763 file 1C.c line 167 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 766 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 769 file 1C.c line 170 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 770 file 1C.c line 171 function main thread 0
+----------------------------------------------------
+  valj=1 (00000000000000000000000000000001)
+
+State 781 file 1C.c line 181 function main thread 0
+----------------------------------------------------
+  big=1 (00000000000000000000000000000001)
+
+State 785 file 1C.c line 183 function main thread 0
+----------------------------------------------------
+  path=(assignment removed)
+
+State 786 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 790 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  n=2 (00000000000000000000000000000010)
+
+State 791 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 792 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 797 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  path[0]=irep("(\"nil\")")[0] (?)
+
+State 798 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 801 file 1C.c line 190 function main thread 0
+----------------------------------------------------
+  g0=1 (00000000000000000000000000000001)
+
+State 802 file 1C.c line 191 function main thread 0
+----------------------------------------------------
+  v0=5 (101)
+
+State 803 file 1C.c line 192 function main thread 0
+----------------------------------------------------
+  v2=0 (000)
+
+State 804 file 1C.c line 194 function main thread 0
+----------------------------------------------------
+  gl=1 (00000000000000000000000000000001)
+
+State 805 file 1C.c line 195 function main thread 0
+----------------------------------------------------
+  vl=5 (101)
+
+State 806 file 1C.c line 196 function main thread 0
+----------------------------------------------------
+  vl2=5 (101)
+
+State 808 file 1C.c line 199 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 811 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 815 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 819 file 1C.c line 170 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 820 file 1C.c line 171 function main thread 0
+----------------------------------------------------
+  valj=1 (00000000000000000000000000000001)
+
+State 831 file 1C.c line 181 function main thread 0
+----------------------------------------------------
+  big=1 (00000000000000000000000000000001)
+
+State 835 file 1C.c line 183 function main thread 0
+----------------------------------------------------
+  path=(assignment removed)
+
+State 836 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 840 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  n=2 (00000000000000000000000000000010)
+
+State 841 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 842 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 847 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  path[0]=irep("(\"nil\")")[0] (?)
+
+State 848 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 851 file 1C.c line 190 function main thread 0
+----------------------------------------------------
+  g0=1 (00000000000000000000000000000001)
+
+State 852 file 1C.c line 191 function main thread 0
+----------------------------------------------------
+  v0=5 (101)
+
+State 853 file 1C.c line 192 function main thread 0
+----------------------------------------------------
+  v2=0 (000)
+
+State 854 file 1C.c line 194 function main thread 0
+----------------------------------------------------
+  gl=1 (00000000000000000000000000000001)
+
+State 855 file 1C.c line 195 function main thread 0
+----------------------------------------------------
+  vl=5 (101)
+
+State 856 file 1C.c line 196 function main thread 0
+----------------------------------------------------
+  vl2=5 (101)
+
+State 858 file 1C.c line 199 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 861 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 864 file 1C.c line 167 function main thread 0
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+
+State 867 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 870 file 1C.c line 170 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 871 file 1C.c line 171 function main thread 0
+----------------------------------------------------
+  valj=1 (00000000000000000000000000000001)
+
+State 882 file 1C.c line 181 function main thread 0
+----------------------------------------------------
+  big=1 (00000000000000000000000000000001)
+
+State 886 file 1C.c line 183 function main thread 0
+----------------------------------------------------
+  path=(assignment removed)
+
+State 887 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 891 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  n=2 (00000000000000000000000000000010)
+
+State 892 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 893 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 898 file 1C.c line 187 function main thread 0
+----------------------------------------------------
+  path[0]=irep("(\"nil\")")[0] (?)
+
+State 899 file 1C.c line 186 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 902 file 1C.c line 190 function main thread 0
+----------------------------------------------------
+  g0=1 (00000000000000000000000000000001)
+
+State 903 file 1C.c line 191 function main thread 0
+----------------------------------------------------
+  v0=5 (101)
+
+State 904 file 1C.c line 192 function main thread 0
+----------------------------------------------------
+  v2=0 (000)
+
+State 905 file 1C.c line 194 function main thread 0
+----------------------------------------------------
+  gl=1 (00000000000000000000000000000001)
+
+State 906 file 1C.c line 195 function main thread 0
+----------------------------------------------------
+  vl=5 (101)
+
+State 907 file 1C.c line 196 function main thread 0
+----------------------------------------------------
+  vl2=5 (101)
+
+State 909 file 1C.c line 199 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 912 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 916 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 920 file 1C.c line 168 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 923 file 1C.c line 167 function main thread 0
+----------------------------------------------------
+  i=5 (00000000000000000000000000000101)
+
+State 926 file 1C.c line 230 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 928 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 931 file 1C.c line 233 function main thread 0
+----------------------------------------------------
+  vali=0 (00000000000000000000000000000000)
+
+State 932 file 1C.c line 234 function main thread 0
+----------------------------------------------------
+  valj=2 (00000000000000000000000000000010)
+
+State 942 file 1C.c line 237 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 944 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 948 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 952 file 1C.c line 233 function main thread 0
+----------------------------------------------------
+  vali=0 (00000000000000000000000000000000)
+
+State 953 file 1C.c line 234 function main thread 0
+----------------------------------------------------
+  valj=2 (00000000000000000000000000000010)
+
+State 963 file 1C.c line 237 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 965 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 968 file 1C.c line 230 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 971 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 974 file 1C.c line 233 function main thread 0
+----------------------------------------------------
+  vali=1 (00000000000000000000000000000001)
+
+State 975 file 1C.c line 234 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 986 file 1C.c line 244 function main thread 0
+----------------------------------------------------
+  big=1 (00000000000000000000000000000001)
+
+State 990 file 1C.c line 247 function main thread 0
+----------------------------------------------------
+  path=(assignment removed)
+
+State 991 file 1C.c line 250 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 995 file 1C.c line 251 function main thread 0
+----------------------------------------------------
+  n=2 (00000000000000000000000000000010)
+
+State 996 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 997 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=2 (00000000000000000000000000000010)
+
+State 1002 file 1C.c line 251 function main thread 0
+----------------------------------------------------
+  path[0]=irep("(\"nil\")")[0] (?)
+
+State 1003 file 1C.c line 250 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1006 file 1C.c line 254 function main thread 0
+----------------------------------------------------
+  g0=1 (00000000000000000000000000000001)
+
+State 1007 file 1C.c line 255 function main thread 0
+----------------------------------------------------
+  v0=5 (101)
+
+State 1008 file 1C.c line 256 function main thread 0
+----------------------------------------------------
+  v2=6 (110)
+
+State 1009 file 1C.c line 258 function main thread 0
+----------------------------------------------------
+  gl=2 (00000000000000000000000000000010)
+
+State 1010 file 1C.c line 259 function main thread 0
+----------------------------------------------------
+  vl=0 (000)
+
+State 1011 file 1C.c line 260 function main thread 0
+----------------------------------------------------
+  vl2=1 (001)
+
+State 1013 file 1C.c line 263 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 1016 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1020 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1024 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1027 file 1C.c line 230 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 1030 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 1033 file 1C.c line 233 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 1034 file 1C.c line 234 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 1044 file 1C.c line 237 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 1046 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1050 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1054 file 1C.c line 233 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 1055 file 1C.c line 234 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 1065 file 1C.c line 237 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 1067 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1070 file 1C.c line 230 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 1073 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 1076 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1080 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1084 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1087 file 1C.c line 230 function main thread 0
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+
+State 1090 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 1093 file 1C.c line 233 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 1094 file 1C.c line 234 function main thread 0
+----------------------------------------------------
+  valj=1 (00000000000000000000000000000001)
+
+State 1105 file 1C.c line 244 function main thread 0
+----------------------------------------------------
+  big=1 (00000000000000000000000000000001)
+
+State 1109 file 1C.c line 247 function main thread 0
+----------------------------------------------------
+  path=(assignment removed)
+
+State 1110 file 1C.c line 250 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 1114 file 1C.c line 251 function main thread 0
+----------------------------------------------------
+  n=2 (00000000000000000000000000000010)
+
+State 1115 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 1116 file 1C.c line 27 function zeroTon thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 1121 file 1C.c line 251 function main thread 0
+----------------------------------------------------
+  path[0]=irep("(\"nil\")")[0] (?)
+
+State 1122 file 1C.c line 250 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1125 file 1C.c line 254 function main thread 0
+----------------------------------------------------
+  g0=1 (00000000000000000000000000000001)
+
+State 1126 file 1C.c line 255 function main thread 0
+----------------------------------------------------
+  v0=1 (001)
+
+State 1127 file 1C.c line 256 function main thread 0
+----------------------------------------------------
+  v2=6 (110)
+
+State 1128 file 1C.c line 258 function main thread 0
+----------------------------------------------------
+  gl=1 (00000000000000000000000000000001)
+
+State 1129 file 1C.c line 259 function main thread 0
+----------------------------------------------------
+  vl=5 (101)
+
+State 1130 file 1C.c line 260 function main thread 0
+----------------------------------------------------
+  vl2=6 (110)
+
+State 1132 file 1C.c line 263 function main thread 0
+----------------------------------------------------
+  C1=TRUE (00000001)
+
+State 1135 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1139 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1143 file 1C.c line 231 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1146 file 1C.c line 230 function main thread 0
+----------------------------------------------------
+  i=5 (00000000000000000000000000000101)
+
+State 1149 file 1C.c line 289 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 1151 file 1C.c line 290 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=0 (000)
+
+State 1152 file 1C.c line 291 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask2=0 (000)
+
+State 1153 file 1C.c line 293 function main thread 0
+----------------------------------------------------
+  total=0 (000)
+
+State 1154 file 1C.c line 294 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=0 (00000000000000000000000000000000)
+
+State 1155 file 1C.c line 295 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count2=0 (00000000000000000000000000000000)
+
+State 1156 file 1C.c line 297 function main thread 0
+----------------------------------------------------
+  Ck=FALSE (00000000)
+
+State 1157 file 1C.c line 298 function main thread 0
+----------------------------------------------------
+  Cl=FALSE (00000000)
+
+State 1158 file 1C.c line 300 function main thread 0
+----------------------------------------------------
+  v=5 (101)
+
+State 1159 file 1C.c line 301 function main thread 0
+----------------------------------------------------
+  t=5 (101)
+
+State 1160 file 1C.c line 303 function main thread 0
+----------------------------------------------------
+  valj=2 (00000000000000000000000000000010)
+
+State 1161 file 1C.c line 304 function main thread 0
+----------------------------------------------------
+  vali=0 (00000000000000000000000000000000)
+
+State 1162 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 1164 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=1 (001)
+
+State 1165 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=7 (111)
+
+State 1166 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=815737718298383104 (0000101101010010000101010010001000000001000100000001001100000000)
+
+State 1167 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=45 (101101)
+
+State 1168 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=63 (111111)
+
+State 1171 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=5981096964497997826 (0101001100000001001000000000000000000000000100100000000000000010)
+
+State 1174 file 1C.c line 335 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask2=7 (111)
+
+State 1175 file 1C.c line 336 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count2=1 (00000000000000000000000000000001)
+
+State 1176 file 1C.c line 337 function main thread 0
+----------------------------------------------------
+  placeHolder=7 (111)
+
+State 1177 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 1180 file 1C.c line 341 function main thread 0
+----------------------------------------------------
+  vff=35184422420737 (0000000000000000001000000000000000000011000000000000000100000001)
+
+State 1182 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1186 file 1C.c line 341 function main thread 0
+----------------------------------------------------
+  vff=6642527975933935873 (0101110000101111000000000000000000100000001000110000000100000001)
+
+State 1188 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=2 (00000000000000000000000000000010)
+
+State 1192 file 1C.c line 341 function main thread 0
+----------------------------------------------------
+  vff=9835864128797802753 (1000100010000000000000100101000000000000000000000000000100000001)
+
+State 1194 file 1C.c line 343 function main thread 0
+----------------------------------------------------
+  Cl=TRUE (00000001)
+
+State 1195 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=3 (00000000000000000000000000000011)
+
+State 1198 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1201 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=6 (110)
+
+State 1202 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=4 (100)
+
+State 1203 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=6132794384925655056 (0101010100011100000100000000000000001010000000010000000000010000)
+
+State 1204 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=45 (101101)
+
+State 1205 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=63 (111111)
+
+State 1207 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=15511296736224153668 (1101011101000011001100100011001100000000010100010001000001000100)
+
+State 1209 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1212 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=4 (100)
+
+State 1213 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=3 (011)
+
+State 1214 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=9224218880019333138 (1000000000000011000000100011001100001010000000010000000000010010)
+
+State 1215 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=45 (101101)
+
+State 1216 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=63 (111111)
+
+State 1219 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=10019981555647119377 (1000101100001110001000000010001100000000010100000000000000010001)
+
+State 1222 file 1C.c line 335 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask2=7 (111)
+
+State 1223 file 1C.c line 336 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count2=2 (00000000000000000000000000000010)
+
+State 1224 file 1C.c line 337 function main thread 0
+----------------------------------------------------
+  placeHolder=3 (011)
+
+State 1225 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 1228 file 1C.c line 341 function main thread 0
+----------------------------------------------------
+  vff=35184422420737 (0000000000000000001000000000000000000011000000000000000100000001)
+
+State 1230 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1234 file 1C.c line 341 function main thread 0
+----------------------------------------------------
+  vff=6642527975933935873 (0101110000101111000000000000000000100000001000110000000100000001)
+
+State 1236 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=2 (00000000000000000000000000000010)
+
+State 1240 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=3 (00000000000000000000000000000011)
+
+State 1243 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1247 file 1C.c line 351 function main thread 0
+----------------------------------------------------
+  C2=TRUE (00000001)
+
+State 1249 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+State 1252 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=61 (111101)
+
+State 1253 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1258 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=35184422420737 (0000000000000000001000000000000000000011000000000000000100000001)
+
+State 1260 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1266 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=6642527975933935873 (0101110000101111000000000000000000100000001000110000000100000001)
+
+State 1268 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1274 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=9835864128797802753 (1000100010000000000000100101000000000000000000000000000100000001)
+
+State 1276 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1279 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=1 (00000000000000000000000000000001)
+
+State 1283 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=57 (111001)
+
+State 1284 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1289 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=35184422420737 (0000000000000000001000000000000000000011000000000000000100000001)
+
+State 1291 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1297 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=6642527975933935873 (0101110000101111000000000000000000100000001000110000000100000001)
+
+State 1299 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1305 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=9835864128797802753 (1000100010000000000000100101000000000000000000000000000100000001)
+
+State 1307 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1310 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=2 (00000000000000000000000000000010)
+
+State 1314 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=3 (00000000000000000000000000000011)
+
+State 1317 file 1C.c line 289 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 1320 file 1C.c line 290 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=0 (000)
+
+State 1321 file 1C.c line 291 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask2=0 (000)
+
+State 1322 file 1C.c line 293 function main thread 0
+----------------------------------------------------
+  total=0 (000)
+
+State 1323 file 1C.c line 294 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=0 (00000000000000000000000000000000)
+
+State 1324 file 1C.c line 295 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count2=0 (00000000000000000000000000000000)
+
+State 1325 file 1C.c line 297 function main thread 0
+----------------------------------------------------
+  Ck=FALSE (00000000)
+
+State 1326 file 1C.c line 298 function main thread 0
+----------------------------------------------------
+  Cl=FALSE (00000000)
+
+State 1327 file 1C.c line 300 function main thread 0
+----------------------------------------------------
+  v=5 (101)
+
+State 1328 file 1C.c line 301 function main thread 0
+----------------------------------------------------
+  t=1 (001)
+
+State 1329 file 1C.c line 303 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 1330 file 1C.c line 304 function main thread 0
+----------------------------------------------------
+  vali=1 (00000000000000000000000000000001)
+
+State 1331 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 1333 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=1 (001)
+
+State 1334 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=7 (111)
+
+State 1335 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=815737718298383104 (0000101101010010000101010010001000000001000100000001001100000000)
+
+State 1336 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=41 (101001)
+
+State 1337 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=61 (111101)
+
+State 1340 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=5981096964497997826 (0101001100000001001000000000000000000000000100100000000000000010)
+
+State 1343 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1346 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=6 (110)
+
+State 1347 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=4 (100)
+
+State 1348 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=6132794384925655056 (0101010100011100000100000000000000001010000000010000000000010000)
+
+State 1349 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=41 (101001)
+
+State 1350 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=61 (111101)
+
+State 1352 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=15511296736224153668 (1101011101000011001100100011001100000000010100010001000001000100)
+
+State 1354 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1357 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=4 (100)
+
+State 1358 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=3 (011)
+
+State 1359 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=9224218880019333138 (1000000000000011000000100011001100001010000000010000000000010010)
+
+State 1360 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=41 (101001)
+
+State 1361 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=61 (111101)
+
+State 1364 file 1C.c line 315 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=4 (100)
+
+State 1365 file 1C.c line 316 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=1 (00000000000000000000000000000001)
+
+State 1366 file 1C.c line 317 function main thread 0
+----------------------------------------------------
+  placeHolder=4 (100)
+
+State 1367 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 1370 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1374 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=2 (00000000000000000000000000000010)
+
+State 1378 file 1C.c line 321 function main thread 0
+----------------------------------------------------
+  vff=6917599396435591426 (0110000000000000010000000000000000000011000000000000000100000010)
+
+State 1380 file 1C.c line 323 function main thread 0
+----------------------------------------------------
+  Ck=TRUE (00000001)
+
+State 1381 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=3 (00000000000000000000000000000011)
+
+State 1384 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=10019981555647119377 (1000101100001110001000000010001100000000010100000000000000010001)
+
+State 1386 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1390 file 1C.c line 351 function main thread 0
+----------------------------------------------------
+  C2=TRUE (00000001)
+
+State 1392 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+State 1395 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=1 (00000000000000000000000000000001)
+
+State 1399 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=57 (111001)
+
+State 1400 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1404 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1409 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1415 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1418 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=2 (00000000000000000000000000000010)
+
+State 1422 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=63 (111111)
+
+State 1423 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1427 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1432 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1437 file 1C.c line 365 function main thread 0
+----------------------------------------------------
+  vf=6917599396435591426 (0110000000000000010000000000000000000011000000000000000100000010)
+
+State 1440 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1443 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=3 (00000000000000000000000000000011)
+
+State 1446 file 1C.c line 289 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 1449 file 1C.c line 290 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=0 (000)
+
+State 1450 file 1C.c line 291 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask2=0 (000)
+
+State 1451 file 1C.c line 293 function main thread 0
+----------------------------------------------------
+  total=0 (000)
+
+State 1452 file 1C.c line 294 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=0 (00000000000000000000000000000000)
+
+State 1453 file 1C.c line 295 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count2=0 (00000000000000000000000000000000)
+
+State 1454 file 1C.c line 297 function main thread 0
+----------------------------------------------------
+  Ck=FALSE (00000000)
+
+State 1455 file 1C.c line 298 function main thread 0
+----------------------------------------------------
+  Cl=FALSE (00000000)
+
+State 1456 file 1C.c line 300 function main thread 0
+----------------------------------------------------
+  v=4 (100)
+
+State 1457 file 1C.c line 301 function main thread 0
+----------------------------------------------------
+  t=5 (101)
+
+State 1458 file 1C.c line 303 function main thread 0
+----------------------------------------------------
+  valj=0 (00000000000000000000000000000000)
+
+State 1459 file 1C.c line 304 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 1460 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 1462 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=1 (001)
+
+State 1463 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=7 (111)
+
+State 1464 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=815737718298383104 (0000101101010010000101010010001000000001000100000001001100000000)
+
+State 1465 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=37 (100101)
+
+State 1466 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=61 (111101)
+
+State 1468 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=5981096964497997826 (0101001100000001001000000000000000000000000100100000000000000010)
+
+State 1471 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1474 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=6 (110)
+
+State 1475 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=4 (100)
+
+State 1476 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=6132794384925655056 (0101010100011100000100000000000000001010000000010000000000010000)
+
+State 1477 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=37 (100101)
+
+State 1478 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=61 (111101)
+
+State 1480 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=15511296736224153668 (1101011101000011001100100011001100000000010100010001000001000100)
+
+State 1482 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1485 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=4 (100)
+
+State 1486 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=3 (011)
+
+State 1487 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=9224218880019333138 (1000000000000011000000100011001100001010000000010000000000010010)
+
+State 1488 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=37 (100101)
+
+State 1489 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=61 (111101)
+
+State 1492 file 1C.c line 315 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=4 (100)
+
+State 1493 file 1C.c line 316 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=1 (00000000000000000000000000000001)
+
+State 1494 file 1C.c line 317 function main thread 0
+----------------------------------------------------
+  placeHolder=4 (100)
+
+State 1495 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 1498 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1502 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=2 (00000000000000000000000000000010)
+
+State 1506 file 1C.c line 321 function main thread 0
+----------------------------------------------------
+  vff=6917599396435591426 (0110000000000000010000000000000000000011000000000000000100000010)
+
+State 1508 file 1C.c line 323 function main thread 0
+----------------------------------------------------
+  Ck=TRUE (00000001)
+
+State 1509 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=3 (00000000000000000000000000000011)
+
+State 1512 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=10019981555647119377 (1000101100001110001000000010001100000000010100000000000000010001)
+
+State 1515 file 1C.c line 335 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask2=3 (011)
+
+State 1516 file 1C.c line 336 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count2=1 (00000000000000000000000000000001)
+
+State 1517 file 1C.c line 337 function main thread 0
+----------------------------------------------------
+  placeHolder=3 (011)
+
+State 1518 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 1521 file 1C.c line 341 function main thread 0
+----------------------------------------------------
+  vff=35184422420737 (0000000000000000001000000000000000000011000000000000000100000001)
+
+State 1523 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1527 file 1C.c line 341 function main thread 0
+----------------------------------------------------
+  vff=6642527975933935873 (0101110000101111000000000000000000100000001000110000000100000001)
+
+State 1529 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=2 (00000000000000000000000000000010)
+
+State 1533 file 1C.c line 339 function main thread 0
+----------------------------------------------------
+  l=3 (00000000000000000000000000000011)
+
+State 1536 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1540 file 1C.c line 351 function main thread 0
+----------------------------------------------------
+  C2=TRUE (00000001)
+
+State 1542 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+State 1545 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=1 (00000000000000000000000000000001)
+
+State 1549 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=57 (111001)
+
+State 1550 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1555 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=35184422420737 (0000000000000000001000000000000000000011000000000000000100000001)
+
+State 1557 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1563 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=6642527975933935873 (0101110000101111000000000000000000100000001000110000000100000001)
+
+State 1565 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1571 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1574 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=2 (00000000000000000000000000000010)
+
+State 1578 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=63 (111111)
+
+State 1579 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1584 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=35184422420737 (0000000000000000001000000000000000000011000000000000000100000001)
+
+State 1586 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1592 file 1C.c line 374 function main thread 0
+----------------------------------------------------
+  vf=6642527975933935873 (0101110000101111000000000000000000100000001000110000000100000001)
+
+State 1594 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1599 file 1C.c line 365 function main thread 0
+----------------------------------------------------
+  vf=6917599396435591426 (0110000000000000010000000000000000000011000000000000000100000010)
+
+State 1602 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1605 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=3 (00000000000000000000000000000011)
+
+State 1608 file 1C.c line 289 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 1611 file 1C.c line 290 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=0 (000)
+
+State 1612 file 1C.c line 291 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask2=0 (000)
+
+State 1613 file 1C.c line 293 function main thread 0
+----------------------------------------------------
+  total=0 (000)
+
+State 1614 file 1C.c line 294 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=0 (00000000000000000000000000000000)
+
+State 1615 file 1C.c line 295 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count2=0 (00000000000000000000000000000000)
+
+State 1616 file 1C.c line 297 function main thread 0
+----------------------------------------------------
+  Ck=FALSE (00000000)
+
+State 1617 file 1C.c line 298 function main thread 0
+----------------------------------------------------
+  Cl=FALSE (00000000)
+
+State 1618 file 1C.c line 300 function main thread 0
+----------------------------------------------------
+  v=5 (101)
+
+State 1619 file 1C.c line 301 function main thread 0
+----------------------------------------------------
+  t=0 (000)
+
+State 1620 file 1C.c line 303 function main thread 0
+----------------------------------------------------
+  valj=1 (00000000000000000000000000000001)
+
+State 1621 file 1C.c line 304 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 1622 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 1624 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=1 (001)
+
+State 1625 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=7 (111)
+
+State 1626 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=815737718298383104 (0000101101010010000101010010001000000001000100000001001100000000)
+
+State 1627 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=40 (101000)
+
+State 1628 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=57 (111001)
+
+State 1631 file 1C.c line 315 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=1 (001)
+
+State 1632 file 1C.c line 316 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=1 (00000000000000000000000000000001)
+
+State 1633 file 1C.c line 317 function main thread 0
+----------------------------------------------------
+  placeHolder=1 (001)
+
+State 1634 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 1637 file 1C.c line 321 function main thread 0
+----------------------------------------------------
+  vff=144818875534409986 (0000001000000010100000000000000000000001000000000000000100000010)
+
+State 1639 file 1C.c line 323 function main thread 0
+----------------------------------------------------
+  Ck=TRUE (00000001)
+
+State 1640 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1644 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=2 (00000000000000000000000000000010)
+
+State 1648 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=3 (00000000000000000000000000000011)
+
+State 1651 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=5981096964497997826 (0101001100000001001000000000000000000000000100100000000000000010)
+
+State 1653 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1656 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=6 (110)
+
+State 1657 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=4 (100)
+
+State 1658 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=6132794384925655056 (0101010100011100000100000000000000001010000000010000000000010000)
+
+State 1659 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=40 (101000)
+
+State 1660 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=57 (111001)
+
+State 1662 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=15511296736224153668 (1101011101000011001100100011001100000000010100010001000001000100)
+
+State 1664 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1667 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=4 (100)
+
+State 1668 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=3 (011)
+
+State 1669 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=9224218880019333138 (1000000000000011000000100011001100001010000000010000000000010010)
+
+State 1670 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=40 (101000)
+
+State 1671 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=57 (111001)
+
+State 1674 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=10019981555647119377 (1000101100001110001000000010001100000000010100000000000000010001)
+
+State 1676 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1680 file 1C.c line 351 function main thread 0
+----------------------------------------------------
+  C2=TRUE (00000001)
+
+State 1682 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+State 1685 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=61 (111101)
+
+State 1686 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1690 file 1C.c line 365 function main thread 0
+----------------------------------------------------
+  vf=144818875534409986 (0000001000000010100000000000000000000001000000000000000100000010)
+
+State 1693 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1698 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1703 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1706 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=1 (00000000000000000000000000000001)
+
+State 1710 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=2 (00000000000000000000000000000010)
+
+State 1714 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=63 (111111)
+
+State 1715 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1719 file 1C.c line 365 function main thread 0
+----------------------------------------------------
+  vf=144818875534409986 (0000001000000010100000000000000000000001000000000000000100000010)
+
+State 1722 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1727 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1732 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1735 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=3 (00000000000000000000000000000011)
+
+State 1738 file 1C.c line 289 function main thread 0
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+
+State 1741 file 1C.c line 290 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=0 (000)
+
+State 1742 file 1C.c line 291 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask2=0 (000)
+
+State 1743 file 1C.c line 293 function main thread 0
+----------------------------------------------------
+  total=0 (000)
+
+State 1744 file 1C.c line 294 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=0 (00000000000000000000000000000000)
+
+State 1745 file 1C.c line 295 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count2=0 (00000000000000000000000000000000)
+
+State 1746 file 1C.c line 297 function main thread 0
+----------------------------------------------------
+  Ck=FALSE (00000000)
+
+State 1747 file 1C.c line 298 function main thread 0
+----------------------------------------------------
+  Cl=FALSE (00000000)
+
+State 1748 file 1C.c line 300 function main thread 0
+----------------------------------------------------
+  v=1 (001)
+
+State 1749 file 1C.c line 301 function main thread 0
+----------------------------------------------------
+  t=1 (001)
+
+State 1750 file 1C.c line 303 function main thread 0
+----------------------------------------------------
+  valj=1 (00000000000000000000000000000001)
+
+State 1751 file 1C.c line 304 function main thread 0
+----------------------------------------------------
+  vali=2 (00000000000000000000000000000010)
+
+State 1752 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+
+State 1754 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=1 (001)
+
+State 1755 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=7 (111)
+
+State 1756 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=815737718298383104 (0000101101010010000101010010001000000001000100000001001100000000)
+
+State 1757 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=9 (001001)
+
+State 1758 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=57 (111001)
+
+State 1761 file 1C.c line 315 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].combinedMask=1 (001)
+
+State 1762 file 1C.c line 316 function main thread 0
+----------------------------------------------------
+  edgeBag[(long int)i!0@1].count=1 (00000000000000000000000000000001)
+
+State 1763 file 1C.c line 317 function main thread 0
+----------------------------------------------------
+  placeHolder=1 (001)
+
+State 1764 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 1767 file 1C.c line 321 function main thread 0
+----------------------------------------------------
+  vff=144818875534409986 (0000001000000010100000000000000000000001000000000000000100000010)
+
+State 1769 file 1C.c line 323 function main thread 0
+----------------------------------------------------
+  Ck=TRUE (00000001)
+
+State 1770 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=1 (00000000000000000000000000000001)
+
+State 1774 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=2 (00000000000000000000000000000010)
+
+State 1778 file 1C.c line 319 function main thread 0
+----------------------------------------------------
+  l=3 (00000000000000000000000000000011)
+
+State 1781 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=5981096964497997826 (0101001100000001001000000000000000000000000100100000000000000010)
+
+State 1784 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 1787 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=6 (110)
+
+State 1788 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=4 (100)
+
+State 1789 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=6132794384925655056 (0101010100011100000100000000000000001010000000010000000000010000)
+
+State 1790 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=9 (001001)
+
+State 1791 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=57 (111001)
+
+State 1793 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=15511296736224153668 (1101011101000011001100100011001100000000010100010001000001000100)
+
+State 1795 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 1798 file 1C.c line 307 function main thread 0
+----------------------------------------------------
+  f=4 (100)
+
+State 1799 file 1C.c line 308 function main thread 0
+----------------------------------------------------
+  h=3 (011)
+
+State 1800 file 1C.c line 309 function main thread 0
+----------------------------------------------------
+  vf=9224218880019333138 (1000000000000011000000100011001100001010000000010000000000010010)
+
+State 1801 file 1C.c line 310 function main thread 0
+----------------------------------------------------
+  bv=9 (001001)
+
+State 1802 file 1C.c line 311 function main thread 0
+----------------------------------------------------
+  bvv=57 (111001)
+
+State 1804 file 1C.c line 332 function main thread 0
+----------------------------------------------------
+  vf=10019981555647119377 (1000101100001110001000000010001100000000010100000000000000010001)
+
+State 1806 file 1C.c line 306 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 1810 file 1C.c line 351 function main thread 0
+----------------------------------------------------
+  C2=TRUE (00000001)
+
+State 1812 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+State 1815 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=61 (111101)
+
+State 1816 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1820 file 1C.c line 365 function main thread 0
+----------------------------------------------------
+  vf=144818875534409986 (0000001000000010100000000000000000000001000000000000000100000010)
+
+State 1823 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1828 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1833 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1836 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=1 (00000000000000000000000000000001)
+
+State 1840 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=2 (00000000000000000000000000000010)
+
+State 1844 file 1C.c line 359 function main thread 0
+----------------------------------------------------
+  bv=63 (111111)
+
+State 1845 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=0 (00000000000000000000000000000000)
+
+State 1849 file 1C.c line 365 function main thread 0
+----------------------------------------------------
+  vf=144818875534409986 (0000001000000010100000000000000000000001000000000000000100000010)
+
+State 1852 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=1 (00000000000000000000000000000001)
+
+State 1857 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=2 (00000000000000000000000000000010)
+
+State 1862 file 1C.c line 361 function main thread 0
+----------------------------------------------------
+  m=3 (00000000000000000000000000000011)
+
+State 1865 file 1C.c line 357 function main thread 0
+----------------------------------------------------
+  k=3 (00000000000000000000000000000011)
+
+State 1868 file 1C.c line 289 function main thread 0
+----------------------------------------------------
+  i=5 (00000000000000000000000000000101)
+
+State 1871 file 1C.c line 386 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+The edge No.0 has this config : 
+ There is an edge between graph[0][2]
+ vSnare =  5 
+ tSnare = 5
+ combinedMask = 0 
+  combinedMask = 7 
+ counts = 0 
+ counts2 = 2 
+
+State 1875 file 1C.c line 386 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+The edge No.1 has this config : 
+ There is an edge between graph[1][0]
+ vSnare =  5 
+ tSnare = 1
+ combinedMask = 4 
+  combinedMask = 0 
+ counts = 1 
+ counts2 = 0 
+
+State 1880 file 1C.c line 386 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+The edge No.2 has this config : 
+ There is an edge between graph[2][0]
+ vSnare =  4 
+ tSnare = 5
+ combinedMask = 4 
+  combinedMask = 3 
+ counts = 1 
+ counts2 = 1 
+
+State 1885 file 1C.c line 386 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+The edge No.3 has this config : 
+ There is an edge between graph[2][1]
+ vSnare =  5 
+ tSnare = 0
+ combinedMask = 1 
+  combinedMask = 0 
+ counts = 1 
+ counts2 = 0 
+
+State 1890 file 1C.c line 386 function main thread 0
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+The edge No.4 has this config : 
+ There is an edge between graph[2][1]
+ vSnare =  1 
+ tSnare = 1
+ combinedMask = 1 
+  combinedMask = 0 
+ counts = 1 
+ counts2 = 0 
+
+State 1895 file 1C.c line 386 function main thread 0
+----------------------------------------------------
+  i=5 (00000000000000000000000000000101)
+
+State 1898 file 1C.c line 394 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+ The qrfusionMatrix[[0] = 1 
+
+State 1901 file 1C.c line 394 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+ The qrfusionMatrix[[1] = 6 
+
+State 1905 file 1C.c line 394 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+ The qrfusionMatrix[[2] = 4 
+
+State 1909 file 1C.c line 394 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 1912 file 1C.c line 398 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+ 
+ The rqfusionMatrix[0] = 7 
+
+State 1915 file 1C.c line 398 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+ 
+ The rqfusionMatrix[1] = 4 
+
+State 1919 file 1C.c line 398 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+ 
+ The rqfusionMatrix[2] = 3 
+
+State 1923 file 1C.c line 398 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 1926 file 1C.c line 402 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+T-Nodes[0] = 5
+
+State 1929 file 1C.c line 402 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+T-Nodes[1] = 1
+
+State 1933 file 1C.c line 402 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+T-Nodes[2] = 7
+
+State 1937 file 1C.c line 402 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 1940 file 1C.c line 405 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+V-Nodes[0] = 7
+
+State 1943 file 1C.c line 405 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+V-Nodes[1] = 7
+
+State 1947 file 1C.c line 405 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+V-Nodes[2] = 7
+
+State 1951 file 1C.c line 405 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 1954 file 1C.c line 409 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+ edegeInhib[0] = 1179650
+nodeInhib[0] = 16777474
+
+State 1958 file 1C.c line 409 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+ edegeInhib[1] = 5312580
+nodeInhib[1] = 16777474
+
+State 1963 file 1C.c line 409 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+ edegeInhib[2] = 5242897
+nodeInhib[2] = 50331906
+
+State 1968 file 1C.c line 409 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+ edegeInhib[3] = 17830656
+nodeInhib[3] = 50331905
+
+State 1973 file 1C.c line 409 function main thread 0
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+ edegeInhib[4] = 167837712
+nodeInhib[4] = 539164929
+
+State 1978 file 1C.c line 409 function main thread 0
+----------------------------------------------------
+  i=5 (00000000000000000000000000000101)
+ edegeInhib[5] = 167837714
+nodeInhib[5] = 257
+
+State 1983 file 1C.c line 409 function main thread 0
+----------------------------------------------------
+  i=6 (00000000000000000000000000000110)
+
+State 1986 file 1C.c line 415 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 1988 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+Graph[0][0] = 0
+
+State 1991 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+Graph[0][1] = 0
+
+State 1995 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+Graph[0][2] = 1
+
+State 1999 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 2002 file 1C.c line 415 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 2005 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+Graph[1][0] = 1
+
+State 2008 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+Graph[1][1] = 0
+
+State 2012 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+Graph[1][2] = 0
+
+State 2016 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 2019 file 1C.c line 415 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 2022 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=0 (00000000000000000000000000000000)
+Graph[2][0] = 1
+
+State 2025 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+Graph[2][1] = 2
+
+State 2029 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+Graph[2][2] = 0
+
+State 2033 file 1C.c line 416 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 2036 file 1C.c line 415 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+The value of : 
+ C0 = 0 
+ C1 : 1 
+ C2 : 1 , C3 : 1 
+,C4 : 1 , C5 : 0
+ the value of mr.Ticks is 0 and len was 5 
+
+Violated property:
+  file 1C.c line 424 function main
+  Graph that satisfy friendZoned model exists
+  !(C4 != FALSE && C1 != FALSE && C2 != FALSE && C3 != FALSE)
+
+VERIFICATION FAILED

@@ -7,7 +7,7 @@
 #define snareLength 4
 #define dLen 8  // 2 * M  
 #define bigLen 256  // 2 ^ (2*M) 
-#define len 4
+#define len 5
 
 
 _Bool nondet_bool();

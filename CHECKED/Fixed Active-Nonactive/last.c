@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 4      
-#define N 4
+#define M 4
+#define N 3
 #define snareLength 4
 #define dLen 8  // 2 * M  
-#define bigLen 256 // 2 ^ (2*M) 
-#define len 7
+#define bigLen 256// 2 ^ (2*M) 
+#define len 6
+
+
 
 _Bool nondet_bool();
 unsigned int nondet_uint();
@@ -122,7 +124,7 @@ int  main()
           }
      }
 
-      
+      /*
          C4 = 0;
          for ( i = 0; i < N ; i++) {
              calc = 0;
@@ -132,35 +134,22 @@ int  main()
                 }
                }
              __CPROVER_assume(calc >= 3);
-             if(calc < 4) {
+             if(calc <= 4) {
                  C4 = 1;
              }
          }
-     
-  /*
-  //  Make assumption that each TNodes will be differnt.    
-    for  (i = 0; i < N; i++) {
-        for (j = 0; j < N; j++) {
-            if ( i != j) {
-              __CPROVER_assume(Tnodes[i] != Tnodes[j]);
-              __CPROVER_assume(Vnodes[i] != Vnodes[j]);
-           }
-        } 
-    }
-*/    
-    
+     */
+  
+
     
 	for (j = 0; j < len; j++) {   
          C0 = (C0 && (edgeBag[j].vSnare != 0));
          C0 = (C0 && (edgeBag[j].tSnare != 0));
      }
 
-
     for ( i = 0; i < N; i++) {
               __CPROVER_assume(Vnodes[i] != 0);
     }
-    
-    
 
 
 // No.1 : Steady State Condition For VSnares	
@@ -306,20 +295,18 @@ int  main()
         for  (j = 0; j < snareLength; j++) {   
            f = qrfusionMatrix[j];
            h = rqfusionMatrix[j];   
-           vf = edegeInhib[j + M]; // EdgeInhibition of jth Qsnare
-           bv = ((v << M) | t);
+       
            bvv = ((Vnodes[valj] << M) | Tnodes[valj]);
 
-           if ( (v & (1 << j))) {     // Molecule is present
-            if ((vf & (b1 << bv)) != b0) {   // Arg molecules were not able to inhibit it i.e Molecule is  active 
+           if ( (v & (1 << j))) {    
+            if ((t & f) == 0) {
 			  edgeBag[i].combinedMask = edgeBag[i].combinedMask | f;
               edgeBag[i].count = edgeBag[i].count + 1; 
               placeHolder = (Tnodes[valj] & f);
-              // FUSION CHECK
 	          for ( l = 0; l < snareLength; l++) {
-	              if  ( placeHolder & (1 << l)) { // frd molecule present on the node ?
+	              if  ( placeHolder & (1 << l)) { 
 		               vff  =  nodeInhib[l];  // Node Inhibition of lth Rsnare   
-                       if ((vff  & (b1 << bvv)) != b0) {  // Check this molecule is active
+                       if ((vff  & (b1 << bvv)) != b0) {
                             Ck = 1; 
                        }
                   }
@@ -329,17 +316,15 @@ int  main()
 
          // R SNARE TIME : 
 
-         vf = edegeInhib[j];  // Edge inhibition of jth RSnare
          if ( (t & (1 << j)) ) {        
-             if ((vf & (b1 << bv)) != b0) {   // Arg molecules were not able to inhibit it i.e Molecule is  active 
+             if ((v & h) == 0) {
 				edgeBag[i].combinedMask2 = edgeBag[i].combinedMask2 | h;
                 edgeBag[i].count2 = edgeBag[i].count2 + 1;    
                 placeHolder = (Vnodes[valj] & h);
-	             // FUSION CHECK
 	            for ( l = 0; l < snareLength; l++) {
-	                if  ( placeHolder & (1 << l)) {  // frd molecule present on the node ?
+	                if  ( placeHolder & (1 << l)) { 
 		               vff  =  nodeInhib[l + M];    // Node Inhibition of lth Qsnare
-                       if ((vff  & (b1 << bvv)) != b0) {  // Check this molecule is active
+                       if ((vff  & (b1 << bvv)) != b0) {
                            Cl = 1; 
                       }
                  }
@@ -360,19 +345,19 @@ int  main()
 	           
 	           for (m = 0; m < snareLength; m++) {   	    
    
-                  if (edgeBag[i].combinedMask & (1 << m)) { // if molecule is in combined mask
-		             if (Tnodes[k] & (1 << m)) {               // check for its presence 
-		                  vf = nodeInhib[m];                  
-			              if ((vf & (b1 << bv)) != b0)  {  
+                  if (edgeBag[i].combinedMask & (1 << m)) {
+		             if (Tnodes[k] & (1 << m)) {  
+		                  vf = nodeInhib[m];
+			              if (vf & (b1 << bv)) {  
 			                  C3 = 0;
 	                       }
                      }
                   }
                   
-                  if (edgeBag[i].combinedMask2 & (1 << m)) { // if molecule is in combined mask check for its absence
+                  if (edgeBag[i].combinedMask2 & (1 << m)) {
 		             if (Vnodes[k] & (1 << m)) {   
 		                  vf = nodeInhib[m + M];
-    			          if ((vf & (b1 << bv)) != b0){  
+    			          if (vf & (b1 << bv)) {  
 			                  C3 = 0;
 	                       }
                       }
@@ -398,7 +383,7 @@ int  main()
     for  (i = 0; i < snareLength; i++){
         printf(" \n The rqfusionMatrix[%d] = %d ", i, rqfusionMatrix[i]);
     }
-
+ 
     for  (i = 0; i < N; i++){
         printf("T-Nodes[%d] = %d" , i , Tnodes[i]);
     }
@@ -420,8 +405,8 @@ int  main()
 
     printf("\nThe value of : \n C0 = %d \n C1 : %d \n C2 : %d , C3 : %d \n,C4 : %d , C5 : %d",C0,C1,C2,C3,C4,C5);
     printf(" the value of mr.Ticks is %d and len was %d ", ticks , len);
-    
-  __CPROVER_assert(! ( C4 && C1 && C2 && C3) , "Graph that satisfy friendZoned model exists");  
+   // assert(0);
+  __CPROVER_assert( !(C1 && C2 && C3 && C4)  , "Graph that satisfy friendZoned model exists");  
  
 }
 
