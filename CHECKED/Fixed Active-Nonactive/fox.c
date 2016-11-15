@@ -6,7 +6,7 @@
 #define snareLength 4
 #define dLen 8   // 2 * M  
 #define bigLen 256 // 2 ^ (2*M) 
-#define len 5
+#define len 6
 
 
 _Bool nondet_bool();
@@ -136,7 +136,8 @@ int  main()
                  C4 = 1;
              }
          }
-   */
+*/
+
   C5 = 1;
 
   for (x = 0; x < len; x++) {
@@ -155,6 +156,7 @@ int  main()
 	        graph1[edgeBag[y].ith][edgeBag[y].jth] = (graph1[edgeBag[y].ith][edgeBag[y].jth] - 1);		     
 	        graph1[edgeBag[z].ith][edgeBag[z].jth] = (graph1[edgeBag[z].ith][edgeBag[z].jth] - 1);
 	         
+// ------------ working great ------------------------------------------------------------------------//
 
           // STRONGLY CONNECTED
           for ( i = 0; i < N; i++) {
@@ -188,7 +190,9 @@ int  main()
                             C5 = 0;
 					  }
                  }
-                }   
+              }   // else if ended 
+               
+                 
             }
          }
                  
@@ -196,7 +200,7 @@ int  main()
    }
 }
 
-    
+      
 	for (j = 0; j < len; j++) {   
          C0 = (C0 && (edgeBag[j].vSnare != 0));
          C0 = (C0 && (edgeBag[j].tSnare != 0));
@@ -461,7 +465,7 @@ int  main()
     printf("\nThe value of : \n  C1 : %d \n C2 : %d , C3 : %d C4 :%d  C5 : %d",C1,C2,C3,C4,C5);
     printf(" the value of mr.Ticks is %d and len was %d ", ticks , len);
    //assert(0);
-  __CPROVER_assert( ( (!(C1 && C2 && C3)) || (C5)) , "Graph that satisfy friendZoned model exists");  
+  __CPROVER_assert( !(C1 && C2 && C3 && C4)  , "Graph that satisfy friendZoned model exists");  
  
 }
 

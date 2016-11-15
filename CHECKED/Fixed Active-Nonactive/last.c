@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define M 3
-#define N 2
-#define snareLength 3
-#define dLen 6  // 2 * M  
-#define bigLen 64 // 2 ^ (2*M) 
-#define len 3
+#define M 4
+#define N 4
+#define snareLength 4
+#define dLen 8  // 2 * M  
+#define bigLen 256// 2 ^ (2*M) 
+#define len 7
 
 
 _Bool nondet_bool();
@@ -123,7 +123,7 @@ int  main()
           }
      }
 
-     /*  
+      
          C4 = 0;
          for ( i = 0; i < N ; i++) {
              calc = 0;
@@ -133,11 +133,11 @@ int  main()
                 }
                }
              __CPROVER_assume(calc >= 3);
-             if(calc < 4) {
+             if(calc < 5) {
                  C4 = 1;
              }
          }
-     */
+     
   
 
     
@@ -405,7 +405,7 @@ int  main()
     printf("\nThe value of : \n C0 = %d \n C1 : %d \n C2 : %d , C3 : %d \n,C4 : %d , C5 : %d",C0,C1,C2,C3,C4,C5);
     printf(" the value of mr.Ticks is %d and len was %d ", ticks , len);
    // assert(0);
-  __CPROVER_assert(! ( C0 && C1 && C2 && C3) , "Graph that satisfy friendZoned model exists");  
+  __CPROVER_assert( !(C1 && C2 && C3 && C4)  , "Graph that satisfy friendZoned model exists");  
  
 }
 
